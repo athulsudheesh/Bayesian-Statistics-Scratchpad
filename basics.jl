@@ -19,7 +19,7 @@ w = 6
 l = 3
 m = globethrowing(w,l)
 
-r = quap(m)
+#r = quap(m)
 ################################
 pgrid = range(0, stop=1, length=10000)
 prob_p = fill(1,10000)
@@ -31,13 +31,13 @@ samples = sample(pgrid, Weights(posterior), length(pgrid))
 p1 = density(samples, legend = false, 
         xlabel = " Proportion Water", 
         ylabel = " Density", 
-        grid = false, color=:black,
-        title = " Sample from posterior")
+        grid = false, color=:red,
+        title = " Sample from posterior", framestyle=:box)
 
 p2 = scatter(samples, legend = false, 
         markerstrokewidth=0, alpha=0.25, 
         xlabel = "Proportion Water", 
         ylabel = "Sample Number", grid=false, 
-        title = " Density of the Sample")
+        title = " Density of the Sample", framestyle=:box)
 plot(p1,p2, size=(600,300))
 savefig("posterior.png")
