@@ -1,0 +1,22 @@
+{
+    "arch": "arm64",
+    "build": "h93a5062_0",
+    "build_number": 0,
+    "build_string": "h93a5062_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [],
+    "fn": "c-ares-1.20.1-h93a5062_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "ff730651c34139afe7d29e3e8b8481e2",
+    "name": "c-ares",
+    "platform": "osx",
+    "sha256": "cc929cacc6c92e4bb8bd9c05e749d3cb32ead1dea632f0f9a4704571b696dd1a",
+    "size": 101522,
+    "subdir": "osx-arm64",
+    "timestamp": 1696842827095,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/c-ares-1.20.1-h93a5062_0.conda",
+    "version": "1.20.1"
+}

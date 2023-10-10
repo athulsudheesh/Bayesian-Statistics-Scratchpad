@@ -1,0 +1,15 @@
+site-packages/xarray_einstats-0.6.0.dist-info/INSTALLER
+site-packages/xarray_einstats-0.6.0.dist-info/LICENSE
+site-packages/xarray_einstats-0.6.0.dist-info/METADATA
+site-packages/xarray_einstats-0.6.0.dist-info/RECORD
+site-packages/xarray_einstats-0.6.0.dist-info/REQUESTED
+site-packages/xarray_einstats-0.6.0.dist-info/WHEEL
+site-packages/xarray_einstats-0.6.0.dist-info/direct_url.json
+site-packages/xarray_einstats/__init__.py
+site-packages/xarray_einstats/accessors.py
+site-packages/xarray_einstats/einops.py
+site-packages/xarray_einstats/linalg.py
+site-packages/xarray_einstats/numba.py
+site-packages/xarray_einstats/py.typed
+site-packages/xarray_einstats/stats.py
+site-packages/xarray_einstats/tutorial.py

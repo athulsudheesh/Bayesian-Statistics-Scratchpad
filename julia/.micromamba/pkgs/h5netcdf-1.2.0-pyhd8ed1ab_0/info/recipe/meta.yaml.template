@@ -1,0 +1,47 @@
+{% set version = "1.2.0" %}
+
+package:
+  name: h5netcdf
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/h/h5netcdf/h5netcdf-{{ version }}.tar.gz
+  sha256: 7f6b2733bde06ea2575b79a6450d9bd5c38918ff4cb2a355bf22bbe8c86c6bcf
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python >=3.9
+    - setuptools >=42
+    - setuptools-scm >=7.0
+    - pip
+  run:
+    - python >=3.9
+    - h5py
+    - packaging
+
+test:
+  imports:
+    - h5netcdf
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: https://github.com/h5netcdf/h5netcdf
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: Pythonic interface to netCDF4 via h5py
+
+extra:
+  recipe-maintainers:
+    - hmaarrfk
+    - jhamman
+    - ocefpaf
+    - shoyer
+    - kmuehlbauer

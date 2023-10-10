@@ -1,0 +1,1 @@
+["typing_extensions", "pytest-timeout", "pytest-xdist", "meson", "setuptools <60.0.0", "pytest", "cython", "pytz", "hypothesis"]

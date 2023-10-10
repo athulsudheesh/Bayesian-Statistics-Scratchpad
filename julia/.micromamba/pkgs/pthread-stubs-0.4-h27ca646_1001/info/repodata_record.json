@@ -1,0 +1,22 @@
+{
+    "arch": "arm64",
+    "build": "h27ca646_1001",
+    "build_number": 1001,
+    "build_string": "h27ca646_1001",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [],
+    "fn": "pthread-stubs-0.4-h27ca646_1001.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "d3f26c6494d4105d4ecb85203d687102",
+    "name": "pthread-stubs",
+    "platform": "osx",
+    "sha256": "9da9e6f5d51dff6ad2e4ee0874791437ba952e0a6249942273f0fedfd07ea826",
+    "size": 5696,
+    "subdir": "osx-arm64",
+    "timestamp": 1606147608402,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pthread-stubs-0.4-h27ca646_1001.tar.bz2",
+    "version": "0.4"
+}

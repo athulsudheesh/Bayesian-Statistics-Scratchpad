@@ -1,0 +1,25 @@
+{
+    "arch": "arm64",
+    "build": "hb547adb_1",
+    "build_number": 1,
+    "build_string": "hb547adb_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "brotli-bin 1.1.0 hb547adb_1",
+        "libbrotlidec 1.1.0 hb547adb_1",
+        "libbrotlienc 1.1.0 hb547adb_1"
+    ],
+    "fn": "brotli-1.1.0-hb547adb_1.conda",
+    "license": "MIT",
+    "md5": "a33aa58d448cbc054f887e39dd1dfaea",
+    "name": "brotli",
+    "platform": "osx",
+    "sha256": "62d1587deab752fcee07adc371eb20fcadc09f72c0c85399c22b637ca858020f",
+    "size": 19506,
+    "subdir": "osx-arm64",
+    "timestamp": 1695990588610,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/brotli-1.1.0-hb547adb_1.conda",
+    "version": "1.1.0"
+}

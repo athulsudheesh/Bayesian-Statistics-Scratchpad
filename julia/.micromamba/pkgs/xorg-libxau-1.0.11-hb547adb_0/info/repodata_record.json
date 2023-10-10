@@ -1,0 +1,22 @@
+{
+    "arch": "arm64",
+    "build": "hb547adb_0",
+    "build_number": 0,
+    "build_string": "hb547adb_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [],
+    "fn": "xorg-libxau-1.0.11-hb547adb_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "ca73dc4f01ea91e44e3ed76602c5ea61",
+    "name": "xorg-libxau",
+    "platform": "osx",
+    "sha256": "02c313a1cada46912e5b9bdb355cfb4534bfe22143b4ea4ecc419690e793023b",
+    "size": 13667,
+    "subdir": "osx-arm64",
+    "timestamp": 1684638272445,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxau-1.0.11-hb547adb_0.conda",
+    "version": "1.0.11"
+}

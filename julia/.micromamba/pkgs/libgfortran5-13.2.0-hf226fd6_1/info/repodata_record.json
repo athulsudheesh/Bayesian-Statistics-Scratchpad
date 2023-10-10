@@ -1,0 +1,26 @@
+{
+    "arch": "arm64",
+    "build": "hf226fd6_1",
+    "build_number": 1,
+    "build_string": "hf226fd6_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "libgfortran 5.0.0 13_2_0_*_1"
+    ],
+    "depends": [
+        "llvm-openmp >=8.0.0"
+    ],
+    "fn": "libgfortran5-13.2.0-hf226fd6_1.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "license_family": "GPL",
+    "md5": "4480d71b98c87faafab132d33e23135e",
+    "name": "libgfortran5",
+    "platform": "osx",
+    "sha256": "cb9cb11e49a6a8466ea7556a723080d3aeefd556df9b444b941afc5b54368b22",
+    "size": 995733,
+    "subdir": "osx-arm64",
+    "timestamp": 1694172076009,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-13.2.0-hf226fd6_1.conda",
+    "version": "13.2.0"
+}

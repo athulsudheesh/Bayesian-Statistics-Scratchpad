@@ -1,0 +1,25 @@
+{
+  "arch": "arm64",
+  "build": "py311h93d07a4_1",
+  "build_number": 1,
+  "depends": [
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libcxx >=15.0.7",
+    "libgfortran 5.*",
+    "libgfortran5 >=12.3.0",
+    "libgfortran5 >=13.2.0",
+    "liblapack >=3.9.0,<4.0a0",
+    "numpy >=1.23.5,<1.28",
+    "numpy >=1.23.5,<2.0a0",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "scipy",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1696469388055,
+  "version": "1.11.3"
+}

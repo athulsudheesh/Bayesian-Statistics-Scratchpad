@@ -1,0 +1,5 @@
+#!/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

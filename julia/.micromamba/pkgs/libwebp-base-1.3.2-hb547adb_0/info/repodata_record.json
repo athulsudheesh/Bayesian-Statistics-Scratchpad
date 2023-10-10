@@ -1,0 +1,23 @@
+{
+    "arch": "arm64",
+    "build": "hb547adb_0",
+    "build_number": 0,
+    "build_string": "hb547adb_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "libwebp 1.3.2"
+    ],
+    "depends": [],
+    "fn": "libwebp-base-1.3.2-hb547adb_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "85dbc11098cdbe4244cd73f29a3ab795",
+    "name": "libwebp-base",
+    "platform": "osx",
+    "sha256": "a159b848193043fb58465ae6a449361615dadcf27babfe0b18db2bd3eb59e958",
+    "size": 273844,
+    "subdir": "osx-arm64",
+    "timestamp": 1694709510635,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libwebp-base-1.3.2-hb547adb_0.conda",
+    "version": "1.3.2"
+}

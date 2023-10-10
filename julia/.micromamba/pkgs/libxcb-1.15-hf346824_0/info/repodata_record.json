@@ -1,0 +1,26 @@
+{
+    "arch": "arm64",
+    "build": "hf346824_0",
+    "build_number": 0,
+    "build_string": "hf346824_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "pthread-stubs",
+        "xorg-libxau",
+        "xorg-libxdmcp"
+    ],
+    "fn": "libxcb-1.15-hf346824_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "988d5f86ab60fa6de91b3ee3a88a3af9",
+    "name": "libxcb",
+    "platform": "osx",
+    "sha256": "6eaa87760ff3e91bb5524189700139db46f8946ff6331f4e571e4a9356edbb0d",
+    "size": 334770,
+    "subdir": "osx-arm64",
+    "timestamp": 1682082734262,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libxcb-1.15-hf346824_0.conda",
+    "version": "1.15"
+}

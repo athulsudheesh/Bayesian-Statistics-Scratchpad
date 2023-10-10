@@ -1,0 +1,69 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Sep 12 19:50:03 2023
+# ------------------------------------------------
+
+package:
+  name: setuptools
+  version: 68.2.2
+source:
+  patches:
+    - patches/0021-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch
+  sha256: 4ac1475276d2f1c48684874089fefcd83bd7162ddaafb81fac866ba0db282a87
+  url: https://pypi.io/packages/source/s/setuptools/setuptools-68.2.2.tar.gz
+build:
+  noarch: python
+  number: '0'
+  string: pyhd8ed1ab_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h7f98852_4
+    - ca-certificates 2023.7.22 hbcca054_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libexpat 2.5.0 hcb278e6_1
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 13.2.0 h807b86a_0
+    - libgomp 13.2.0 h807b86a_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsqlite 3.43.0 h2797004_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4 hcb278e6_0
+    - openssl 3.1.2 hd590300_0
+    - python 3.11.5 hab00c5b_0_cpython
+    - readline 8.2 h8228510_1
+    - tk 8.6.12 h27826a3_0
+    - tzdata 2023c h71feb2d_0
+    - xz 5.2.6 h166bdaf_0
+  run:
+    - python >=3.7
+test:
+  imports:
+    - pkg_resources
+    - setuptools
+about:
+  description: 'Setuptools is a fully-featured, actively-maintained, and stable library
+
+    designed to facilitate packaging Python projects.
+
+    '
+  dev_url: https://github.com/pypa/setuptools
+  doc_source_url: https://github.com/pypa/setuptools/tree/master/docs
+  doc_url: http://pythonhosted.org/setuptools/
+  home: https://github.com/pypa/setuptools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - isuruf
+    - jakirkham
+    - msarahan
+    - nicoddemus
+    - ocefpaf
+    - rgommers

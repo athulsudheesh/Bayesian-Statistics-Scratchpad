@@ -1,0 +1,19 @@
+{
+  "arch": "arm64",
+  "build": "py311h05b510d_0",
+  "build_number": 0,
+  "depends": [
+    "brotli",
+    "munkres",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "fonttools",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1696601722810,
+  "version": "4.43.1"
+}

@@ -1,0 +1,11 @@
+prefix=/Users/runner/miniforge3/conda-bld/xorg-libxau_1684638004696/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xau
+Description: X authorization file management library
+Version: 1.0.11
+Requires: xproto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXau

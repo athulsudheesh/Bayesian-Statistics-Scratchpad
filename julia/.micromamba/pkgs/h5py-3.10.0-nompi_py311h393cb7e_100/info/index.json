@@ -1,0 +1,19 @@
+{
+  "arch": "arm64",
+  "build": "nompi_py311h393cb7e_100",
+  "build_number": 100,
+  "depends": [
+    "cached-property",
+    "hdf5 >=1.14.2,<1.14.3.0a0",
+    "numpy >=1.23.5,<2.0a0",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "h5py",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1696887221215,
+  "version": "3.10.0"
+}

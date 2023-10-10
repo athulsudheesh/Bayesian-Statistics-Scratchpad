@@ -1,0 +1,10 @@
+cmake/libaec-config-version.cmake
+cmake/libaec-config.cmake
+include/libaec.h
+include/szlib.h
+lib/libaec.0.1.2.dylib
+lib/libaec.0.dylib
+lib/libaec.dylib
+lib/libsz.2.0.1.dylib
+lib/libsz.2.dylib
+lib/libsz.dylib

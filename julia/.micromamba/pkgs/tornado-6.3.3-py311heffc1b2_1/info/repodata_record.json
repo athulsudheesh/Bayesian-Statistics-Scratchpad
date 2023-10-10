@@ -1,0 +1,26 @@
+{
+    "arch": "arm64",
+    "build": "py311heffc1b2_1",
+    "build_number": 1,
+    "build_string": "py311heffc1b2_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "tornado-6.3.3-py311heffc1b2_1.conda",
+    "license": "Apache-2.0",
+    "license_family": "Apache",
+    "md5": "a3a94203d225faec0d6bd000ea30b0a1",
+    "name": "tornado",
+    "platform": "osx",
+    "sha256": "65e96fcaa2fad8013fdfd1c7cbdc4684b253541c10091fa7acd55b4a3daa87e6",
+    "size": 843751,
+    "subdir": "osx-arm64",
+    "timestamp": 1695373818353,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/tornado-6.3.3-py311heffc1b2_1.conda",
+    "version": "6.3.3"
+}

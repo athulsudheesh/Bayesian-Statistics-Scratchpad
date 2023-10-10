@@ -1,0 +1,54 @@
+# This file created by conda-build 3.25.0
+# ------------------------------------------------
+
+package:
+  name: libblas
+  version: 3.9.0
+source:
+  - patches:
+      - patches/0001-Test-BLAS-and-LAPACKE-in-addition-to-LAPACK.patch
+    sha256: 106087f1bb5f46afdfba7f569d0cbe23dacb9a07cd24733765a0e89dbe1ad573
+    url: https://github.com/Reference-LAPACK/lapack/archive/v3.9.0.tar.gz
+  - folder: vecLibFort
+    sha256: 80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad
+    url: https://github.com/isuruf/vecLibFort/archive/99af8640e98c829b41c3235e3706760cd5696fe4.tar.gz
+build:
+  number: 18
+  run_exports:
+    - libblas >=3.9.0,<4.0a0
+  string: 18_osxarm64_openblas
+  track_features: null
+requirements:
+  host:
+    - libgfortran 5.0.0 12_3_0_hd922786_1
+    - libgfortran5 12.3.0 ha3a6a3e_1
+    - libopenblas 0.3.24 openmp_hd76b1f2_0
+    - llvm-openmp 16.0.6 h1c12783_0
+  run:
+    - libopenblas >=0.3.24,<0.3.25.0a0
+    - libopenblas >=0.3.24,<1.0a0
+  run_constrained:
+    - blas * openblas
+    - libcblas 3.9.0 18_osxarm64_openblas
+    - liblapack 3.9.0 18_osxarm64_openblas
+    - liblapacke 3.9.0 18_osxarm64_openblas
+test:
+  commands:
+    - test -f $PREFIX/lib/libblas.3.dylib
+about:
+  home: https://github.com/conda-forge/blas-feedstock
+  license: BSD-3-Clause
+  license_file:
+    - LICENSE.txt
+  summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in
+    your environment to control which variant you want.
+extra:
+  copy_test_source_files: true
+  feedstock-name: blas
+  final: true
+  recipe-maintainers:
+    - h-vetinari
+    - isuruf
+    - jakirkham
+    - ocefpaf
+    - pelson

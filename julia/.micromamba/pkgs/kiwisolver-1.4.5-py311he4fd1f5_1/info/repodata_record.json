@@ -1,0 +1,27 @@
+{
+    "arch": "arm64",
+    "build": "py311he4fd1f5_1",
+    "build_number": 1,
+    "build_string": "py311he4fd1f5_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libcxx >=15.0.7",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "kiwisolver-1.4.5-py311he4fd1f5_1.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "4c871d65040b8c7bbb914df7f8f11492",
+    "name": "kiwisolver",
+    "platform": "osx",
+    "sha256": "907af50734789d47b3e8b2148dde763699dc746c64e5849baf6bd720c8cd0235",
+    "size": 61946,
+    "subdir": "osx-arm64",
+    "timestamp": 1695380538042,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/kiwisolver-1.4.5-py311he4fd1f5_1.conda",
+    "version": "1.4.5"
+}

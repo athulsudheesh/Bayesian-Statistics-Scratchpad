@@ -1,0 +1,21 @@
+{
+    "arch": "arm64",
+    "build": "hb547adb_1",
+    "build_number": 1,
+    "build_string": "hb547adb_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [],
+    "fn": "libbrotlicommon-1.1.0-hb547adb_1.conda",
+    "license": "MIT",
+    "md5": "cd68f024df0304be41d29a9088162b02",
+    "name": "libbrotlicommon",
+    "platform": "osx",
+    "sha256": "556f0fddf4bd4d35febab404d98cb6862ce3b7ca843e393da0451bfc4654cf07",
+    "size": 68579,
+    "subdir": "osx-arm64",
+    "timestamp": 1695990426128,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libbrotlicommon-1.1.0-hb547adb_1.conda",
+    "version": "1.1.0"
+}

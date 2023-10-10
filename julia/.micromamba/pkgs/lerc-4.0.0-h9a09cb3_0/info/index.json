@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "h9a09cb3_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=13.0.1"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "lerc",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1657977558796,
+  "version": "4.0.0"
+}

@@ -1,0 +1,55 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /Users/runner/work/1/s/recipe, last modified Mon Nov 23 16:01:47 2020
+# ------------------------------------------------
+
+package:
+    name: pthread-stubs
+    version: '0.4'
+source:
+    fn: libpthread-stubs-0.4.tar.bz2
+    sha256: e4d05911a3165d3b18321cc067fdd2f023f06436e391c6a28dff618a78d2e733
+    url: https://www.x.org/releases/individual/xcb/libpthread-stubs-0.4.tar.bz2
+build:
+    detect_binary_files_with_prefix: true
+    number: '1001'
+    string: h27ca646_1001
+requirements:
+    build:
+        - cctools_osx-arm64 949.0.1 h1c9b417_16
+        - clang 11.0.0 h694c41f_2
+        - clang-11 11.0.0 default_h9e6edd0_2
+        - clang_osx-arm64 11.0.0 h40be2b1_5
+        - clangxx 11.0.0 default_h9e6edd0_2
+        - compiler-rt 11.0.0 h01488ec_2
+        - compiler-rt_osx-64 11.0.0 hd3c4e95_2
+        - ld64_osx-64 530 h66d9e41_16
+        - ld64_osx-arm64 530 h8c8ad8c_16
+        - ldid 2.1.2 h7660a38_2
+        - libclang-cpp11 11.0.0 default_h9e6edd0_2
+        - libcxx 11.0.0 h439d374_0
+        - libiconv 1.16 haf1e3a3_0
+        - libllvm11 11.0.0 hf85e3d2_0
+        - llvm-tools 11.0.0 hf85e3d2_0
+        - make 4.3 h22f3db7_1
+        - pkg-config 0.29.2 h31203cd_1008
+        - tapi 1100.0.11 h9ce4665_0
+        - zlib 1.2.11 h7795811_1010
+    host:
+        - xorg-util-macros 1.19.2 h27ca646_1001
+    run: []
+test:
+    commands: null
+about:
+    home: https://xcb.freedesktop.org/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING
+    summary: Stubs missing from libc for standard pthread functions
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - pkgw

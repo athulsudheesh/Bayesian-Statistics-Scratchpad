@@ -1,0 +1,21 @@
+{
+  "arch": "arm64",
+  "build": "ha8a6c65_2",
+  "build_number": 2,
+  "depends": [
+    "lerc >=4.0.0,<5.0a0",
+    "libcxx >=15.0.7",
+    "libdeflate >=1.19,<1.20.0a0",
+    "libjpeg-turbo >=3.0.0,<4.0a0",
+    "libwebp-base >=1.3.2,<2.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "xz >=5.2.6,<6.0a0",
+    "zstd >=1.5.5,<1.6.0a0"
+  ],
+  "license": "HPND",
+  "name": "libtiff",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695661829324,
+  "version": "4.6.0"
+}

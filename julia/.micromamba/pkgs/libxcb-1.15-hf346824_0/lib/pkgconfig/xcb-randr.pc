@@ -1,0 +1,11 @@
+prefix=/Users/runner/miniforge3/conda-bld/libxcb_1682082358461/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB RandR
+Description: XCB RandR Extension
+Version: 1.15
+Requires.private: xcb xcb-render
+Libs: -L${libdir} -lxcb-randr
+Cflags: -I${includedir}

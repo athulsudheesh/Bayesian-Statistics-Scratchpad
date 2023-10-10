@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_0",
+  "build_number": 0,
+  "constrains": [
+    "libwebp 1.3.2"
+  ],
+  "depends": [],
+  "license": "BSD-3-Clause",
+  "name": "libwebp-base",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1694709510635,
+  "version": "1.3.2"
+}

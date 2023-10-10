@@ -1,0 +1,18 @@
+{
+  "arch": "arm64",
+  "build": "py311ha1ab1f8_1",
+  "build_number": 1,
+  "depends": [
+    "matplotlib-base >=3.8.0,<3.8.1.0a0",
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311",
+    "tornado >=5"
+  ],
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "name": "matplotlib",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695333177276,
+  "version": "3.8.0"
+}

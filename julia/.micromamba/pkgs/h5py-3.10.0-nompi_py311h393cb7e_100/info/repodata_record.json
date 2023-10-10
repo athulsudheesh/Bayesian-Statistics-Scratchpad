@@ -1,0 +1,28 @@
+{
+    "arch": "arm64",
+    "build": "nompi_py311h393cb7e_100",
+    "build_number": 100,
+    "build_string": "nompi_py311h393cb7e_100",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "cached-property",
+        "hdf5 >=1.14.2,<1.14.3.0a0",
+        "numpy >=1.23.5,<2.0a0",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "h5py-3.10.0-nompi_py311h393cb7e_100.conda",
+    "license": "BSD-3-Clause",
+    "md5": "b08c096fcd3857c3250fbf869c23fffc",
+    "name": "h5py",
+    "platform": "osx",
+    "sha256": "ab5b293ee5ba4aae52a939f8d2c312e36f7a8ad10e708c7d1fa6ac49ec72a227",
+    "size": 1100017,
+    "subdir": "osx-arm64",
+    "timestamp": 1696887221215,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/h5py-3.10.0-nompi_py311h393cb7e_100.conda",
+    "version": "3.10.0"
+}

@@ -1,0 +1,21 @@
+{
+    "arch": "arm64",
+    "build": "hf0a4a13_0",
+    "build_number": 0,
+    "build_string": "hf0a4a13_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [],
+    "fn": "ca-certificates-2023.7.22-hf0a4a13_0.conda",
+    "license": "ISC",
+    "md5": "e1b99ac4dbcee71a71682996f67f7965",
+    "name": "ca-certificates",
+    "platform": "osx",
+    "sha256": "b220c001b0c1448a47cc49b42a622e06a540ec60b3f7a1e057fca1f37ce515e4",
+    "size": 149918,
+    "subdir": "osx-arm64",
+    "timestamp": 1690026385821,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/ca-certificates-2023.7.22-hf0a4a13_0.conda",
+    "version": "2023.7.22"
+}

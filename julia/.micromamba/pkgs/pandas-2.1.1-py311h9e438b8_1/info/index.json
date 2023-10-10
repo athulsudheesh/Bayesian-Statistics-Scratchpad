@@ -1,0 +1,21 @@
+{
+  "arch": "arm64",
+  "build": "py311h9e438b8_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=15.0.7",
+    "numpy >=1.23.5,<2.0a0",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python-dateutil >=2.8.1",
+    "python-tzdata >=2022a",
+    "python_abi 3.11.* *_cp311",
+    "pytz >=2020.1"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "pandas",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1696030913364,
+  "version": "2.1.1"
+}

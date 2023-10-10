@@ -1,0 +1,24 @@
+{
+    "arch": "arm64",
+    "build": "h13dd4ca_1",
+    "build_number": 1,
+    "build_string": "h13dd4ca_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libcxx >=15.0.7"
+    ],
+    "fn": "libaec-1.1.2-h13dd4ca_1.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "md5": "b7962cdc2cedcc9f8d12928824c11fbd",
+    "name": "libaec",
+    "platform": "osx",
+    "sha256": "c9d6f01d511bd3686ce590addf829f34031b95e3feb34418496cbb45924c5d17",
+    "size": 29002,
+    "subdir": "osx-arm64",
+    "timestamp": 1696474168895,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libaec-1.1.2-h13dd4ca_1.conda",
+    "version": "1.1.2"
+}

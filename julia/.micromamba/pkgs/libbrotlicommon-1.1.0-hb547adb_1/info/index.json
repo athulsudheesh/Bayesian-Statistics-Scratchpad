@@ -1,0 +1,12 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_1",
+  "build_number": 1,
+  "depends": [],
+  "license": "MIT",
+  "name": "libbrotlicommon",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695990426128,
+  "version": "1.1.0"
+}

@@ -1,0 +1,114 @@
+{
+    "arch": "arm64",
+    "build": "h13dd4ca_1",
+    "build_number": 1,
+    "build_string": "h13dd4ca_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libcxx >=15.0.7"
+    ],
+    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libaec-1.1.2-h13dd4ca_1",
+    "files": [
+        "cmake/libaec-config-version.cmake",
+        "cmake/libaec-config.cmake",
+        "include/libaec.h",
+        "include/szlib.h",
+        "lib/libaec.0.1.2.dylib",
+        "lib/libaec.0.dylib",
+        "lib/libaec.dylib",
+        "lib/libsz.2.0.1.dylib",
+        "lib/libsz.2.dylib",
+        "lib/libsz.dylib"
+    ],
+    "fn": "libaec-1.1.2-h13dd4ca_1.conda",
+    "license": "BSD-2-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libaec-1.1.2-h13dd4ca_1",
+        "type": 1
+    },
+    "md5": "b7962cdc2cedcc9f8d12928824c11fbd",
+    "name": "libaec",
+    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libaec-1.1.2-h13dd4ca_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "cmake/libaec-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "beded5ea6de079aafa09de6c3642d40e2d6ec864fbd1cdb298028ab3ace1c8d9",
+                "sha256_in_prefix": "beded5ea6de079aafa09de6c3642d40e2d6ec864fbd1cdb298028ab3ace1c8d9",
+                "size_in_bytes": 494
+            },
+            {
+                "_path": "cmake/libaec-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "e583132efade68e8561e25634b9a9be081a23116148a1bb085b8376f29be6d04",
+                "sha256_in_prefix": "e583132efade68e8561e25634b9a9be081a23116148a1bb085b8376f29be6d04",
+                "size_in_bytes": 2853
+            },
+            {
+                "_path": "include/libaec.h",
+                "path_type": "hardlink",
+                "sha256": "1b9428dca3d8c0ea2d0835379c2b4a4f6bfc1ddadc065fcc16f395d77c02abe3",
+                "sha256_in_prefix": "1b9428dca3d8c0ea2d0835379c2b4a4f6bfc1ddadc065fcc16f395d77c02abe3",
+                "size_in_bytes": 6172
+            },
+            {
+                "_path": "include/szlib.h",
+                "path_type": "hardlink",
+                "sha256": "1c48b710abac96963049163579ec8d508e4c86d2dc1d2e3222d5a15f94d3c7a0",
+                "sha256_in_prefix": "1c48b710abac96963049163579ec8d508e4c86d2dc1d2e3222d5a15f94d3c7a0",
+                "size_in_bytes": 2670
+            },
+            {
+                "_path": "lib/libaec.0.1.2.dylib",
+                "path_type": "hardlink",
+                "sha256": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+                "sha256_in_prefix": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+                "size_in_bytes": 70672
+            },
+            {
+                "_path": "lib/libaec.0.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+                "size_in_bytes": 70672
+            },
+            {
+                "_path": "lib/libaec.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+                "size_in_bytes": 70672
+            },
+            {
+                "_path": "lib/libsz.2.0.1.dylib",
+                "path_type": "hardlink",
+                "sha256": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+                "sha256_in_prefix": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+                "size_in_bytes": 70960
+            },
+            {
+                "_path": "lib/libsz.2.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+                "size_in_bytes": 70960
+            },
+            {
+                "_path": "lib/libsz.dylib",
+                "path_type": "softlink",
+                "sha256_in_prefix": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+                "size_in_bytes": 70960
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "",
+    "sha256": "c9d6f01d511bd3686ce590addf829f34031b95e3feb34418496cbb45924c5d17",
+    "size": 29002,
+    "subdir": "osx-arm64",
+    "timestamp": 1696474168895,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libaec-1.1.2-h13dd4ca_1.conda",
+    "version": "1.1.2"
+}

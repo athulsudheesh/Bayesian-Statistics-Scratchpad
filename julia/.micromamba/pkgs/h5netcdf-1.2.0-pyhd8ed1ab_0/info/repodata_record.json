@@ -1,0 +1,26 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "build_string": "pyhd8ed1ab_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "h5py",
+        "packaging",
+        "python >=3.9"
+    ],
+    "fn": "h5netcdf-1.2.0-pyhd8ed1ab_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "a98466105e7e208efc69e4cc16c4ee81",
+    "name": "h5netcdf",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "d564ecfac5bca2cf60cb53d00d68364f7be86bfbcd99267a354d39cdc7ef9435",
+    "size": 42038,
+    "subdir": "noarch",
+    "timestamp": 1685706756818,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/h5netcdf-1.2.0-pyhd8ed1ab_0.conda",
+    "version": "1.2.0"
+}

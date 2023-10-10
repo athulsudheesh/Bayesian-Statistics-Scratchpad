@@ -1,0 +1,17 @@
+{
+  "arch": "arm64",
+  "build": "hf346824_0",
+  "build_number": 0,
+  "depends": [
+    "pthread-stubs",
+    "xorg-libxau",
+    "xorg-libxdmcp"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "libxcb",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1682082734262,
+  "version": "1.15"
+}

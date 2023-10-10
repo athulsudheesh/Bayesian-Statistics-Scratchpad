@@ -1,0 +1,15 @@
+bin/tiffcp
+bin/tiffdump
+bin/tiffinfo
+bin/tiffset
+bin/tiffsplit
+include/tiff.h
+include/tiffconf.h
+include/tiffio.h
+include/tiffio.hxx
+include/tiffvers.h
+lib/libtiff.6.dylib
+lib/libtiff.dylib
+lib/libtiffxx.6.dylib
+lib/libtiffxx.dylib
+lib/pkgconfig/libtiff-4.pc

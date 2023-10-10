@@ -1,0 +1,30 @@
+{
+    "arch": "arm64",
+    "build": "nompi_h3aba7b3_100",
+    "build_number": 100,
+    "build_string": "nompi_h3aba7b3_100",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libaec >=1.0.6,<2.0a0",
+        "libcurl >=8.2.1,<9.0a0",
+        "libcxx >=15.0.7",
+        "libgfortran 5.*",
+        "libgfortran5 >=12.3.0",
+        "libzlib >=1.2.13,<1.3.0a0",
+        "openssl >=3.1.2,<4.0a0"
+    ],
+    "fn": "hdf5-1.14.2-nompi_h3aba7b3_100.conda",
+    "license": "LicenseRef-HDF5",
+    "license_family": "BSD",
+    "md5": "842c5b010b219058098ebfe5aa5891b9",
+    "name": "hdf5",
+    "platform": "osx",
+    "sha256": "2749910e21a7d1f88a81dc4709fc3565a4a3954eadb4409e7a5be1fc13a5b7ca",
+    "size": 3408759,
+    "subdir": "osx-arm64",
+    "timestamp": 1692562818610,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/hdf5-1.14.2-nompi_h3aba7b3_100.conda",
+    "version": "1.14.2"
+}

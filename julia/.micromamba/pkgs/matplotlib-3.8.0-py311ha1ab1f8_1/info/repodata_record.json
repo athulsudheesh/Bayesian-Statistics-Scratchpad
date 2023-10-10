@@ -1,0 +1,27 @@
+{
+    "arch": "arm64",
+    "build": "py311ha1ab1f8_1",
+    "build_number": 1,
+    "build_string": "py311ha1ab1f8_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "matplotlib-base >=3.8.0,<3.8.1.0a0",
+        "python >=3.11,<3.12.0a0",
+        "python_abi 3.11.* *_cp311",
+        "tornado >=5"
+    ],
+    "fn": "matplotlib-3.8.0-py311ha1ab1f8_1.conda",
+    "license": "PSF-2.0",
+    "license_family": "PSF",
+    "md5": "2676eb8e3309757b94ac426f7c49ae70",
+    "name": "matplotlib",
+    "platform": "osx",
+    "sha256": "60688ca76c85f37567d1f4c246696bf5a08b118664b90c557978099f15dc37cc",
+    "size": 8618,
+    "subdir": "osx-arm64",
+    "timestamp": 1695333177276,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.8.0-py311ha1ab1f8_1.conda",
+    "version": "3.8.0"
+}

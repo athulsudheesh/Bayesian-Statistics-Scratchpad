@@ -1,0 +1,1 @@
+["clang_osx-arm64 15.*", "clangxx_osx-arm64 15.*", "zlib", "gfortran_osx-arm64 12.*", "make", "pkg-config", "cmake"]

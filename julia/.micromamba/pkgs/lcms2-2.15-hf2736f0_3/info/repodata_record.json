@@ -1,0 +1,25 @@
+{
+    "arch": "arm64",
+    "build": "hf2736f0_3",
+    "build_number": 3,
+    "build_string": "hf2736f0_3",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libjpeg-turbo >=3.0.0,<4.0a0",
+        "libtiff >=4.6.0,<4.7.0a0"
+    ],
+    "fn": "lcms2-2.15-hf2736f0_3.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "bbaac531169fed3e09ae31aff80aa069",
+    "name": "lcms2",
+    "platform": "osx",
+    "sha256": "3d07ba04602617c3084b302c8a6fa30b2e4b20511180f45992b289c312298018",
+    "size": 215466,
+    "subdir": "osx-arm64",
+    "timestamp": 1695969888308,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/lcms2-2.15-hf2736f0_3.conda",
+    "version": "2.15"
+}

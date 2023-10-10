@@ -1,0 +1,24 @@
+{
+    "arch": null,
+    "build": "pyhd8ed1ab_0",
+    "build_number": 0,
+    "build_string": "pyhd8ed1ab_0",
+    "channel": "https://conda.anaconda.org/conda-forge/noarch",
+    "constrains": [],
+    "depends": [
+        "python >=3.6"
+    ],
+    "fn": "pytz-2023.3.post1-pyhd8ed1ab_0.conda",
+    "license": "MIT",
+    "md5": "c93346b446cd08c169d843ae5fc0da97",
+    "name": "pytz",
+    "noarch": "python",
+    "platform": null,
+    "sha256": "6b680e63d69aaf087cd43ca765a23838723ef59b0a328799e6363eb13f52c49e",
+    "size": 187454,
+    "subdir": "noarch",
+    "timestamp": 1693930444432,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/noarch/pytz-2023.3.post1-pyhd8ed1ab_0.conda",
+    "version": "2023.3.post1"
+}

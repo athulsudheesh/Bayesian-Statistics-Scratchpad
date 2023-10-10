@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.21",
+    "python >=3.9",
+    "scipy >=1.7",
+    "xarray >=2022.09.0"
+  ],
+  "license": "Apache-2.0",
+  "name": "xarray-einstats",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1689090009570,
+  "version": "0.6.0"
+}

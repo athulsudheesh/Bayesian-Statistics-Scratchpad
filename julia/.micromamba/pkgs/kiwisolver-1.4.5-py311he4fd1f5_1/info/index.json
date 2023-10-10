@@ -1,0 +1,18 @@
+{
+  "arch": "arm64",
+  "build": "py311he4fd1f5_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=15.0.7",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "kiwisolver",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695380538042,
+  "version": "1.4.5"
+}

@@ -1,0 +1,16 @@
+{
+  "arch": "arm64",
+  "build": "4_cp311",
+  "build_number": 4,
+  "constrains": [
+    "python 3.11.* *_cpython"
+  ],
+  "depends": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "python_abi",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695147509940,
+  "version": "3.11"
+}

@@ -1,0 +1,12 @@
+{
+  "zstd": "1.5",
+  "CONDA_BUILD_SYSROOT": "/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
+  "c_compiler_version": "15",
+  "target_platform": "osx-arm64",
+  "zlib": "1.2",
+  "channel_targets": "conda-forge main",
+  "openssl": "3",
+  "c_compiler": "clang",
+  "libssh2": "1",
+  "krb5": "1.21"
+}

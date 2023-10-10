@@ -1,0 +1,31 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/Xdmcp.h",
+      "path_type": "hardlink",
+      "sha256": "7326c6b4504939ba0ad61fece04238460020996ef230b8bd9e6b14e4ad5ca426",
+      "size_in_bytes": 6371
+    },
+    {
+      "_path": "lib/libXdmcp.6.dylib",
+      "path_type": "hardlink",
+      "sha256": "ed212dfefeb550e2e8c47940ae9df4c676e94172724f1a1b0ac28a6e9b83a21b",
+      "size_in_bytes": 69904
+    },
+    {
+      "_path": "lib/libXdmcp.dylib",
+      "path_type": "softlink",
+      "sha256": "ed212dfefeb550e2e8c47940ae9df4c676e94172724f1a1b0ac28a6e9b83a21b",
+      "size_in_bytes": 69904
+    },
+    {
+      "_path": "lib/pkgconfig/xdmcp.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/xorg-libxdmcp_1610071602376/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "193008934a0fcf89ad3b690fc108798c664804bb9588e6207f8f2a7261dc7c5c",
+      "size_in_bytes": 491
+    }
+  ],
+  "paths_version": 1
+}

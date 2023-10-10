@@ -1,0 +1,37 @@
+{
+  "paths": [
+    {
+      "_path": "include/X11/Xauth.h",
+      "path_type": "hardlink",
+      "sha256": "f1932c6db3bac9f4f39bdd03c75702c1ace8813410f6216f8d9fe291f0f7e2f8",
+      "size_in_bytes": 3818
+    },
+    {
+      "_path": "lib/libXau.6.0.0.dylib",
+      "path_type": "hardlink",
+      "sha256": "23cf7e6acca48c49e63def2c26fb173724eb5e9ff8f8e83ca1fccc4c1d14303c",
+      "size_in_bytes": 52864
+    },
+    {
+      "_path": "lib/libXau.6.dylib",
+      "path_type": "softlink",
+      "sha256": "23cf7e6acca48c49e63def2c26fb173724eb5e9ff8f8e83ca1fccc4c1d14303c",
+      "size_in_bytes": 52864
+    },
+    {
+      "_path": "lib/libXau.dylib",
+      "path_type": "softlink",
+      "sha256": "23cf7e6acca48c49e63def2c26fb173724eb5e9ff8f8e83ca1fccc4c1d14303c",
+      "size_in_bytes": 52864
+    },
+    {
+      "_path": "lib/pkgconfig/xau.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/xorg-libxau_1684638004696/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "038b8acd8fe1b11e4cd62e04d55612609c9ffd993440c8030ecd8b60d4815ce7",
+      "size_in_bytes": 485
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,13 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "xorg-libxau",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1684638272445,
+  "version": "1.0.11"
+}

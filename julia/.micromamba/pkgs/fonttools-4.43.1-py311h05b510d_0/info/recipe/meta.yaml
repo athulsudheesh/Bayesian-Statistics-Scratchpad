@@ -1,0 +1,132 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /Users/runner/work/1/s/recipe, last modified Fri Oct  6 14:05:28 2023
+# ------------------------------------------------
+
+package:
+  name: fonttools
+  version: 4.43.1
+source:
+  sha256: 17dbc2eeafb38d5d0e865dcce16e313c58265a6d2d20081c435f84dc5a9d8212
+  url: https://pypi.io/packages/source/f/fonttools/fonttools-4.43.1.tar.gz
+build:
+  entry_points:
+    - fonttools = fontTools.__main__:main
+    - pyftmerge = fontTools.merge:main
+    - pyftsubset = fontTools.subset:main
+    - ttx = fontTools.ttx:main
+  number: '0'
+  script: /Users/runner/miniforge3/conda-bld/fonttools_1696601261390/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+    -m pip install . --no-deps -vv
+  string: py311h05b510d_0
+requirements:
+  build:
+    - bzip2 1.0.8 h0d85af4_4
+    - ca-certificates 2023.7.22 h8857fd0_0
+    - cctools_osx-64 973.0.1 ha1c5b94_14
+    - cctools_osx-arm64 973.0.1 h7bb7a8e_14
+    - clang 16.0.6 hc177806_1
+    - clang-16 16.0.6 default_h762fdd7_1
+    - clang_osx-arm64 16.0.6 ha81d56d_1
+    - clangxx 16.0.6 default_h762fdd7_1
+    - compiler-rt 16.0.6 he1888fc_0
+    - compiler-rt_osx-64 16.0.6 he1888fc_0
+    - cross-python_osx-arm64 3.11 41_cpython
+    - crossenv 1.4.0 pyhd8ed1ab_0
+    - cython 3.0.3 py311hd39e593_0
+    - gettext 0.21.1 h8a4c099_0
+    - icu 73.2 hf5e326d_0
+    - ld64_osx-64 609 ha20a434_14
+    - ld64_osx-arm64 609 h6aa3cc8_14
+    - libclang-cpp16 16.0.6 default_h762fdd7_1
+    - libcxx 16.0.6 hd57cbcb_0
+    - libexpat 2.5.0 hf0c8a7f_1
+    - libffi 3.4.2 h0d85af4_5
+    - libiconv 1.17 hac89ed1_0
+    - libllvm16 16.0.6 he4b1e75_2
+    - libsqlite 3.43.0 h58db7d2_0
+    - libxml2 2.11.5 h3346baf_1
+    - libzlib 1.2.13 h8a1eda9_5
+    - llvm-tools 16.0.6 he4b1e75_2
+    - lz4-c 1.9.4 hf0c8a7f_0
+    - ncurses 6.4 hf0c8a7f_0
+    - openssl 3.1.3 h8a1eda9_0
+    - popt 1.16 h7b079dc_2002
+    - python 3.11.6 h30d4d87_0_cpython
+    - python_abi 3.11 4_cp311
+    - readline 8.2 h9e318b2_1
+    - rsync 3.2.7 h30d983d_0
+    - sed 4.7 h3efe00b_1000
+    - sigtool 0.1.3 h88f4db0_0
+    - tapi 1100.0.11 h9ce4665_0
+    - tk 8.6.13 hef22860_0
+    - tzdata 2023c h71feb2d_0
+    - xxhash 0.8.0 h35c211d_3
+    - xz 5.2.6 h775f41a_0
+    - zstd 1.5.5 h829000d_0
+  host:
+    - bzip2 1.0.8 h3422bc3_4
+    - ca-certificates 2023.7.22 hf0a4a13_0
+    - cython 3.0.3 py311hbaf5611_0
+    - libcxx 16.0.6 h4653b0c_0
+    - libexpat 2.5.0 hb7217d7_1
+    - libffi 3.4.2 h3422bc3_5
+    - libsqlite 3.43.0 hb31c410_0
+    - libzlib 1.2.13 h53f4e23_5
+    - ncurses 6.4 h7ea286d_0
+    - openssl 3.1.3 h53f4e23_0
+    - pip 23.2.1 pyhd8ed1ab_0
+    - python 3.11.6 h47c9636_0_cpython
+    - python_abi 3.11 4_cp311
+    - readline 8.2 h92ec313_1
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - tk 8.6.13 hb31c410_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.2 pyhd8ed1ab_0
+    - xz 5.2.6 h57fd34a_0
+  run:
+    - brotli
+    - munkres
+    - python >=3.11,<3.12.0a0
+    - python >=3.11,<3.12.0a0 *_cpython
+    - python_abi 3.11.* *_cp311
+test:
+  commands:
+    - pip check
+    - fonttools --help
+    - fonttools subset --help
+    - ttx -h
+    - pyftsubset --help
+  imports:
+    - fontTools
+    - fontTools.cffLib
+    - fontTools.ttLib
+  requires:
+    - pip
+about:
+  description: 'fontTools is a library for manipulating fonts, written in Python.
+    The
+
+    project includes the TTX tool, that can convert TrueType and OpenType
+
+    fonts to and from an XML text format, which is also called TTX. It
+
+    supports TrueType, OpenType, AFM and to an extent Type 1 and some
+
+    Mac-specific formats. The project has a BSD-style open-source licence.
+
+    '
+  dev_url: https://github.com/fonttools/fonttools
+  doc_url: https://groups.google.com/forum/#!forum/fonttools
+  home: https://github.com/fonttools/fonttools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: fontTools is a library for manipulating fonts, written in Python.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CJ-Wright
+    - dopplershift
+    - tacaswell

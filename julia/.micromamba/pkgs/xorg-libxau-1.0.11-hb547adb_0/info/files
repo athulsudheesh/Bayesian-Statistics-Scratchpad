@@ -1,0 +1,5 @@
+include/X11/Xauth.h
+lib/libXau.6.0.0.dylib
+lib/libXau.6.dylib
+lib/libXau.dylib
+lib/pkgconfig/xau.pc

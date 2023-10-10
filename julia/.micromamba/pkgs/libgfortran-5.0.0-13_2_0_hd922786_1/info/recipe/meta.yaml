@@ -1,0 +1,38 @@
+# This file created by conda-build 3.26.1
+# ------------------------------------------------
+
+package:
+  name: libgfortran
+  version: 5.0.0
+source:
+  patches:
+    - patches/gcc-13.2.0.diff
+  sha256: 8cb4be3796651976f94b9356fa08d833524f62420d6292c5033a9a26af315078
+  url: https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.gz
+build:
+  number: 1
+  string: 13_2_0_hd922786_1
+requirements:
+  build: []
+  run:
+    - libgfortran5 13.2.0 hf226fd6_1
+test:
+  files:
+    - gfortran_test.sh
+    - hello.f90
+    - maths.f90
+    - omp-threadprivate.f90
+about:
+  home: http://gcc.gnu.org/
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  license_file: COPYING3
+  summary: Fortran compiler and libraries from the GNU Compiler Collection
+extra:
+  copy_test_source_files: true
+  feedstock-name: gfortran_impl_osx-64
+  final: true
+  recipe-maintainers:
+    - beckermr
+    - erykoff
+    - isuruf

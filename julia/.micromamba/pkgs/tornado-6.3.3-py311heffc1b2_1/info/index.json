@@ -1,0 +1,17 @@
+{
+  "arch": "arm64",
+  "build": "py311heffc1b2_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "tornado",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695373818353,
+  "version": "6.3.3"
+}

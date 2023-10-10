@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "h5py",
+    "packaging",
+    "python >=3.9"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "h5netcdf",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1685706756818,
+  "version": "1.2.0"
+}

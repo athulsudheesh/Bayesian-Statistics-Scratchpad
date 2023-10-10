@@ -1,0 +1,12 @@
+prefix=/Users/runner/miniforge3/conda-bld/brotli-split_1695989934239/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+exec_prefix=/Users/runner/miniforge3/conda-bld/brotli-split_1695989934239/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlienc
+URL: https://github.com/google/brotli
+Description: Brotli encoder library
+Version: 1.1.0
+Libs: -L${libdir} -lbrotlienc
+Requires.private: libbrotlicommon >= 1.1.0
+Cflags: -I${includedir}

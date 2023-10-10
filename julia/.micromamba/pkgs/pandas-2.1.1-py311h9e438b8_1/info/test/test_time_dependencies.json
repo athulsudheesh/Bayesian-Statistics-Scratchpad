@@ -1,0 +1,1 @@
+["pytest-cov", "boto3", "numpy", "pytest-xdist >=1.31", "pytest >=6.0", "pip", "hypothesis", "pytest-asyncio >=0.17", "psutil"]

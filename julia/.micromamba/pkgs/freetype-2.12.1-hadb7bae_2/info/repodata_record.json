@@ -1,0 +1,24 @@
+{
+    "arch": "arm64",
+    "build": "hadb7bae_2",
+    "build_number": 2,
+    "build_string": "hadb7bae_2",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libpng >=1.6.39,<1.7.0a0",
+        "libzlib >=1.2.13,<1.3.0a0"
+    ],
+    "fn": "freetype-2.12.1-hadb7bae_2.conda",
+    "license": "GPL-2.0-only OR FTL",
+    "md5": "e6085e516a3e304ce41a8ee08b9b89ad",
+    "name": "freetype",
+    "platform": "osx",
+    "sha256": "791673127e037a2dc0eebe122dc4f904cb3f6e635bb888f42cbe1a76b48748d9",
+    "size": 596430,
+    "subdir": "osx-arm64",
+    "timestamp": 1694616332835,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/freetype-2.12.1-hadb7bae_2.conda",
+    "version": "2.12.1"
+}

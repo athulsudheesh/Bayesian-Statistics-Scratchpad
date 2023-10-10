@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "cmake/libaec-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "beded5ea6de079aafa09de6c3642d40e2d6ec864fbd1cdb298028ab3ace1c8d9",
+      "size_in_bytes": 494
+    },
+    {
+      "_path": "cmake/libaec-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "e583132efade68e8561e25634b9a9be081a23116148a1bb085b8376f29be6d04",
+      "size_in_bytes": 2853
+    },
+    {
+      "_path": "include/libaec.h",
+      "path_type": "hardlink",
+      "sha256": "1b9428dca3d8c0ea2d0835379c2b4a4f6bfc1ddadc065fcc16f395d77c02abe3",
+      "size_in_bytes": 6172
+    },
+    {
+      "_path": "include/szlib.h",
+      "path_type": "hardlink",
+      "sha256": "1c48b710abac96963049163579ec8d508e4c86d2dc1d2e3222d5a15f94d3c7a0",
+      "size_in_bytes": 2670
+    },
+    {
+      "_path": "lib/libaec.0.1.2.dylib",
+      "path_type": "hardlink",
+      "sha256": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+      "size_in_bytes": 70672
+    },
+    {
+      "_path": "lib/libaec.0.dylib",
+      "path_type": "softlink",
+      "sha256": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+      "size_in_bytes": 70672
+    },
+    {
+      "_path": "lib/libaec.dylib",
+      "path_type": "softlink",
+      "sha256": "ca9f984650c7925428b987b57d203a36cdcb5faafb06e2738f6518316bf539cc",
+      "size_in_bytes": 70672
+    },
+    {
+      "_path": "lib/libsz.2.0.1.dylib",
+      "path_type": "hardlink",
+      "sha256": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+      "size_in_bytes": 70960
+    },
+    {
+      "_path": "lib/libsz.2.dylib",
+      "path_type": "softlink",
+      "sha256": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+      "size_in_bytes": 70960
+    },
+    {
+      "_path": "lib/libsz.dylib",
+      "path_type": "softlink",
+      "sha256": "28b9ab438f1fe023870bf4176fb1fc7becfbe9607df9f747e1436a57c8d37232",
+      "size_in_bytes": 70960
+    }
+  ],
+  "paths_version": 1
+}

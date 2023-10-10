@@ -1,0 +1,97 @@
+{
+  "paths": [
+    {
+      "_path": "bin/jpgicc",
+      "path_type": "hardlink",
+      "sha256": "ade27171a2980ce6b27629708611688645c6a71daad4872b24f8a78b789aa16b",
+      "size_in_bytes": 75168
+    },
+    {
+      "_path": "bin/linkicc",
+      "path_type": "hardlink",
+      "sha256": "192cbe394f5cad9d390501800f02fa028304c11df3eef0ad272e43f2eddc9f22",
+      "size_in_bytes": 55680
+    },
+    {
+      "_path": "bin/psicc",
+      "path_type": "hardlink",
+      "sha256": "da33099a0c9b5915b752214bf3b5854d5c99aca2d4e08e9bcc6b88f934feca18",
+      "size_in_bytes": 54672
+    },
+    {
+      "_path": "bin/tificc",
+      "path_type": "hardlink",
+      "sha256": "eb6ab81615f01dbccac0cf5b35be22aff46a41aaddeddbd8baeca585443bb95e",
+      "size_in_bytes": 74096
+    },
+    {
+      "_path": "bin/transicc",
+      "path_type": "hardlink",
+      "sha256": "c68cc439f0bacf22f62d74178635c53296723d3b9f869efe7d198ddd630f83b9",
+      "size_in_bytes": 74592
+    },
+    {
+      "_path": "include/lcms2.h",
+      "path_type": "hardlink",
+      "sha256": "f9e70c06cc20dd967205e64ad9040f57a366a1f659a8072d5c8733014a6a61f3",
+      "size_in_bytes": 105244
+    },
+    {
+      "_path": "include/lcms2_plugin.h",
+      "path_type": "hardlink",
+      "sha256": "7239223c1bfbca117c08d548535cd9b60f1d64e7c7f5e6ec5258b8eb071e1d29",
+      "size_in_bytes": 31568
+    },
+    {
+      "_path": "lib/liblcms2.2.dylib",
+      "path_type": "hardlink",
+      "sha256": "4ca79cc4f4244e2cd8c93011206e95c807b242888aca187ebafe5bd71eb309cc",
+      "size_in_bytes": 430864
+    },
+    {
+      "_path": "lib/liblcms2.dylib",
+      "path_type": "softlink",
+      "sha256": "4ca79cc4f4244e2cd8c93011206e95c807b242888aca187ebafe5bd71eb309cc",
+      "size_in_bytes": 430864
+    },
+    {
+      "_path": "lib/pkgconfig/lcms2.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/lcms2_1695969586272/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "2ff60dfda81a8e17f27225912ec361c2f20387a36d735ee4488e93ace5115970",
+      "size_in_bytes": 489
+    },
+    {
+      "_path": "share/man/man1/jpgicc.1",
+      "path_type": "hardlink",
+      "sha256": "cbbc7358d94e765f43b5590d269428087ad84bcd61e04e230fa832b538a50db4",
+      "size_in_bytes": 2927
+    },
+    {
+      "_path": "share/man/man1/linkicc.1",
+      "path_type": "hardlink",
+      "sha256": "7a8ef262b8bfa64598813ba635dda4d78e4d6baadf2ebc6aee36dd6bfebbc6a5",
+      "size_in_bytes": 3365
+    },
+    {
+      "_path": "share/man/man1/psicc.1",
+      "path_type": "hardlink",
+      "sha256": "7e05d24b560c8ec5c6ba141b068a664b7939dfcf029042af883332ad7754976c",
+      "size_in_bytes": 1220
+    },
+    {
+      "_path": "share/man/man1/tificc.1",
+      "path_type": "hardlink",
+      "sha256": "352148346b4553773acacae15e29ea1c197bd954aa320fccae60d7c7fffe9677",
+      "size_in_bytes": 2999
+    },
+    {
+      "_path": "share/man/man1/transicc.1",
+      "path_type": "hardlink",
+      "sha256": "59a6b69c843b4a1b663eefbe70b82efc36c41f2dc4b0b69eff1e60897ea748b5",
+      "size_in_bytes": 2051
+    }
+  ],
+  "paths_version": 1
+}

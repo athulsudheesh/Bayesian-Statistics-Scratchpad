@@ -1,0 +1,31 @@
+{
+    "arch": "arm64",
+    "build": "py311hb8f3215_0",
+    "build_number": 0,
+    "build_string": "py311hb8f3215_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "numpy-base <0a0"
+    ],
+    "depends": [
+        "libblas >=3.9.0,<4.0a0",
+        "libcblas >=3.9.0,<4.0a0",
+        "libcxx >=15.0.7",
+        "liblapack >=3.9.0,<4.0a0",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "numpy-1.26.0-py311hb8f3215_0.conda",
+    "license": "BSD-3-Clause",
+    "md5": "97f8632bf2ad5c179ff68fc90c71c2ae",
+    "name": "numpy",
+    "platform": "osx",
+    "sha256": "fca5ee1363f22a160c97e92d6400d4636f4b05987b08085e4f79fb6efb75fd0a",
+    "size": 6780798,
+    "subdir": "osx-arm64",
+    "timestamp": 1694920700859,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/numpy-1.26.0-py311hb8f3215_0.conda",
+    "version": "1.26.0"
+}

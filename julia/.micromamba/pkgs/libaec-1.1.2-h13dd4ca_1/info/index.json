@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "h13dd4ca_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=15.0.7"
+  ],
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "name": "libaec",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1696474168895,
+  "version": "1.1.2"
+}

@@ -1,0 +1,23 @@
+{
+    "arch": "arm64",
+    "build": "hb547adb_1",
+    "build_number": 1,
+    "build_string": "hb547adb_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "jpeg <0.0.0a"
+    ],
+    "depends": [],
+    "fn": "libjpeg-turbo-3.0.0-hb547adb_1.conda",
+    "license": "IJG AND BSD-3-Clause AND Zlib",
+    "md5": "3ff1e053dc3a2b8e36b9bfa4256a58d1",
+    "name": "libjpeg-turbo",
+    "platform": "osx",
+    "sha256": "a42054eaa38e84fc1e5ab443facac4bbc9d1b6b6f23f54b7bf4f1eb687e1d993",
+    "size": 547541,
+    "subdir": "osx-arm64",
+    "timestamp": 1694475104253,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libjpeg-turbo-3.0.0-hb547adb_1.conda",
+    "version": "3.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "channel_targets": "conda-forge main",
+  "liblapack": "3.9 *netlib",
+  "c_compiler_version": "15",
+  "cxx_compiler": "clangxx",
+  "libblas": "3.9 *netlib",
+  "numpy": "1.23",
+  "c_compiler": "clang",
+  "fortran_compiler_version": "12",
+  "build_platform": "osx-64",
+  "CONDA_BUILD_SYSROOT": "/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
+  "cxx_compiler_version": "15",
+  "target_platform": "osx-arm64",
+  "fortran_compiler": "gfortran",
+  "python": "3.11.* *_cpython",
+  "libcblas": "3.9 *netlib"
+}

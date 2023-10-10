@@ -1,0 +1,28 @@
+{
+    "arch": "arm64",
+    "build": "py311h05b510d_0",
+    "build_number": 0,
+    "build_string": "py311h05b510d_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "brotli",
+        "munkres",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "fonttools-4.43.1-py311h05b510d_0.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "b2fa21c160775e62af06d2db79dfc42d",
+    "name": "fonttools",
+    "platform": "osx",
+    "sha256": "0c30de5f545b2b5a38d5239260d796d457bae77bb114c07ed2154a764d76e0c2",
+    "size": 2682609,
+    "subdir": "osx-arm64",
+    "timestamp": 1696601722810,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/fonttools-4.43.1-py311h05b510d_0.conda",
+    "version": "4.43.1"
+}

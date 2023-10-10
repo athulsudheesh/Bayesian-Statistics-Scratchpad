@@ -1,0 +1,16 @@
+{
+  "arch": "arm64",
+  "build": "hf2736f0_3",
+  "build_number": 3,
+  "depends": [
+    "libjpeg-turbo >=3.0.0,<4.0a0",
+    "libtiff >=4.6.0,<4.7.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "lcms2",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695969888308,
+  "version": "2.15"
+}

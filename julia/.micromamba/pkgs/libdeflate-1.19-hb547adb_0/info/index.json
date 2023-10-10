@@ -1,0 +1,12 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "MIT",
+  "name": "libdeflate",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1694924330786,
+  "version": "1.19"
+}

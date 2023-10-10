@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_1",
+  "build_number": 1,
+  "depends": [
+    "libbrotlidec 1.1.0 hb547adb_1",
+    "libbrotlienc 1.1.0 hb547adb_1"
+  ],
+  "license": "MIT",
+  "name": "brotli-bin",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1695990551239,
+  "version": "1.1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libblas.3.dylib",
+      "path_type": "softlink",
+      "sha256": "e9861ed94b867ca5c14d9157eaedf3e4308fb918e262ee88e2255595b458b914",
+      "size_in_bytes": 10914720
+    },
+    {
+      "_path": "lib/libblas.dylib",
+      "path_type": "softlink",
+      "sha256": "e9861ed94b867ca5c14d9157eaedf3e4308fb918e262ee88e2255595b458b914",
+      "size_in_bytes": 10914720
+    }
+  ],
+  "paths_version": 1
+}

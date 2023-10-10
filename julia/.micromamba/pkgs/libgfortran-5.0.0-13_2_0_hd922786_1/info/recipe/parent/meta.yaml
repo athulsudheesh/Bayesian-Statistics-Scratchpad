@@ -1,0 +1,244 @@
+{% set chost = macos_machine %}
+{% set build_number = 1 %}
+
+{% if gfortran_version is undefined %}
+{% set gfortran_version = "11.3.0" %}
+{% set libgfortran_version = "5.0.0" %}
+{% endif %}
+
+{% set libgfortran_major_version = libgfortran_version.split(".")[0] %}
+{% set libgfortran_next_major = (libgfortran_version|int +1)|string %}
+{% set max_libgfortran_version = libgfortran_next_major + ".0.0.a0" %}
+
+{% set gfortran_major_version = gfortran_version.split('.')[0]|int %}
+
+package:
+  name: gfortran_impl_{{ cross_target_platform }}
+  version: {{ gfortran_version }}
+
+source:
+  url: https://ftp.gnu.org/gnu/gcc/gcc-{{ gfortran_version }}/gcc-{{ gfortran_version }}.tar.gz
+  sha256: 8cb4be3796651976f94b9356fa08d833524f62420d6292c5033a9a26af315078  # [gfortran_version == "13.2.0"]
+  sha256: 11275aa7bb34cd8ab101d01b341015499f8d9466342a2574ece93f954d92273b  # [gfortran_version == "12.3.0"]
+  sha256: undefined                                         # [gfortran_version not in ("13.2.0", "12.3.0")]
+  patches:
+    {% if gfortran_major_version == 12 %}
+    # Following patch downloaded from
+    # https://raw.githubusercontent.com/Homebrew/formula-patches/f1188b90d610e2ed170b22512ff7435ba5c891e2/gcc/gcc-12.3.0.diff
+    # This was then edited with `s/-Wc,-nodefaultrpaths/-nodefaultrpaths`.
+    - patches/gcc-12.3.0.diff                   # [cross_target_platform == "osx-arm64"]
+    {% endif %}
+    {% if gfortran_major_version == 13 %}
+    # https://raw.githubusercontent.com/Homebrew/formula-patches/3c5cbc8e9cf444a1967786af48e430588e1eb481/gcc/gcc-13.2.0.diff
+    # processed as for v12: `s/-Wc,-nodefaultrpaths/-nodefaultrpaths/g`
+    - patches/gcc-13.2.0.diff                   # [cross_target_platform == "osx-arm64"]
+    {% endif %}
+
+build:
+  number: {{ build_number }}
+  # we don't need to cross-compile to osx from anything but osx or linux-64
+  skip: true  # [not (osx or linux64)]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - make
+    - flex
+    - bison
+    - libiconv  # [build_platform != target_platform]
+    - zlib      # [build_platform != target_platform]
+    - gmp       # [build_platform != target_platform]
+    - mpfr      # [build_platform != target_platform]
+    - isl       # [build_platform != target_platform]
+    - mpc       # [build_platform != target_platform]
+    - coreutils  # [osx]
+  host:
+    - libiconv
+    - zlib
+    - gmp
+    - mpfr
+    - isl
+    - mpc
+
+test:
+  files:
+    - hello.f90
+    - maths.f90
+    - omp-threadprivate.f90
+    - gfortran_test.sh
+  commands:
+    - echo "CONDA_BUILD_SYSROOT=${CONDA_BUILD_SYSROOT}"
+    - export SDKROOT="${CONDA_BUILD_SYSROOT}"
+    - echo "SDKROOT=${SDKROOT}"
+    - set -ex
+    - export target_platform={{ target_platform }}
+    - export cross_target_platform={{ cross_target_platform }}
+    - bash gfortran_test.sh
+
+outputs:
+  - name: libgfortran-devel_{{ target_platform }}
+    version: {{ gfortran_version }}
+    build:
+      skip: True  # [target_platform != cross_target_platform]
+      noarch: generic
+    files:
+      # these are not generated for the cross compiler
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libgomp.spec
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libgfortran.spec
+      # fortran module files
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/**
+      # Static libraries and object files
+      #- lib/gcc/{{ chost }}/{{ gfortran_version }}/libgomp.a
+      #- lib/gcc/{{ chost }}/{{ gfortran_version }}/libgfortran.a
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libgcc.a
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libemutls_w.a
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libgcc_eh.a
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/crtfastmath.o
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/crt3.o
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/d10-uwfef.o
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/crttms.o
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/crttme.o
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libgcov.a
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/libcaf_single.a
+
+    test:
+      commands:
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/libgomp.spec"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/libgfortran.spec"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/openacc_lib.h"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/openacc.f90"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/openacc.mod"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/omp_lib.h"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/omp_lib.f90"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/omp_lib.mod"
+        - test -f "${PREFIX}/lib/gcc/{{ chost }}/{{ gfortran_version }}/finclude/ieee_features.mod"
+
+  - name: gfortran_impl_{{ cross_target_platform }}
+    version: {{ gfortran_version }}
+    build:
+      activate_in_script: True
+      skip: True  # [win]
+    requirements:
+      build:
+        - {{ compiler('c') }}
+        - {{ compiler('cxx') }}
+        - make
+        - flex
+        - bison
+        - libiconv  # [build_platform != target_platform]
+        - zlib      # [build_platform != target_platform]
+        - gmp       # [build_platform != target_platform]
+        - mpfr      # [build_platform != target_platform]
+        - isl       # [build_platform != target_platform]
+        - mpc       # [build_platform != target_platform]
+      host:
+        - libiconv
+        - zlib
+        - gmp
+        - mpfr
+        - isl
+        - mpc
+      run:
+        - libgfortran{{ libgfortran_major_version }} >={{ gfortran_version }}  # [target_platform == cross_target_platform]
+        - libgfortran-devel_{{ target_platform }} {{ gfortran_version }}       # [target_platform == cross_target_platform]
+        - isl
+        - mpfr
+        - mpc
+        - gmp
+        - zlib
+        - libiconv
+    files:
+      - bin/gfortran   # [target_platform == cross_target_platform]
+      - bin/{{ chost }}-gfortran
+
+      - libexec/gcc/{{ chost }}/{{ gfortran_version }}/collect2
+      - libexec/gcc/{{ chost }}/{{ gfortran_version }}/f951
+      - libexec/gcc/{{ chost }}/{{ gfortran_version }}/lto-wrapper
+      - libexec/gcc/{{ chost }}/{{ gfortran_version }}/cc1
+      - libexec/gcc/{{ chost }}/{{ gfortran_version }}/cc1.bin
+      - lib/libgfortran.spec
+
+      # For -fopenmp
+      - lib/libgomp.spec
+
+      # For -static
+      - lib/libgfortran.a
+      - lib/libgomp.a
+
+      # include{,-fixed} may not be needed unless -fopenmp is passed (not sure on that)
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/include-fixed/**
+      - lib/gcc/{{ chost }}/{{ gfortran_version }}/include/**
+
+      # Stub libraries
+      - lib/libgcc_ext.10.4.dylib
+      - lib/libgcc_ext.10.5.dylib
+
+
+  - name: libgfortran
+    version: {{ libgfortran_version }}
+    target: {{ cross_target_platform }}
+    build:
+      skip: True  # [target_platform != cross_target_platform]
+      string: {{ gfortran_version.replace(".", "_") }}_h{{ PKG_HASH }}_{{ build_number }}
+    requirements:
+      run:
+        - {{ pin_subpackage("libgfortran" ~ libgfortran_major_version, exact=True) }}
+
+  - name: libgfortran{{ libgfortran_major_version }}
+    version: {{ gfortran_version }}
+    target: {{ cross_target_platform }}
+    build:
+      skip: True  # [target_platform != cross_target_platform]
+      run_exports:
+        - libgfortran{{ libgfortran_major_version }} >={{ gfortran_version }}
+    files:
+      - lib/libgfortran.dylib
+      - lib/libgfortran.{{ libgfortran_major_version }}.dylib
+      - lib/libgomp.dylib
+      - lib/libgomp.1.dylib
+
+      # Including libquadmath for the time
+      # being. This will need to be broken
+      # out in the long term.
+      - lib/libquadmath.dylib
+      - lib/libquadmath.0.dylib
+
+      # Including libgcc_s for the time
+      # being. This will need to be broken
+      # out in the long term.
+      - lib/libgcc_s.1.dylib            # [cross_target_platform == "osx-64"]
+      - lib/libgcc_s.1.1.dylib
+
+    requirements:
+      run:
+        - llvm-openmp >=8.0.0
+      run_constrained:
+        - libgfortran {{ libgfortran_version }} {{ gfortran_version.replace(".", "_") }}_*_{{ build_number }}
+
+    test:
+      commands:
+        - test -f "${PREFIX}/lib/libgfortran.dylib"
+        - test -f "${PREFIX}/lib/libgfortran.{{ libgfortran_major_version }}.dylib"
+
+        - test -f "${PREFIX}/lib/libgomp.dylib"
+        - test -f "${PREFIX}/lib/libgomp.1.dylib"
+
+        - test -f "${PREFIX}/lib/libquadmath.dylib"
+        - test -f "${PREFIX}/lib/libquadmath.0.dylib"
+        - test -f "${PREFIX}/lib/libgcc_s.1.dylib"          # [cross_target_platform == "osx-64"]
+        - test -f "${PREFIX}/lib/libgcc_s.1.1.dylib"
+
+about:
+  home: http://gcc.gnu.org/
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  license_file: COPYING3
+  summary: Fortran compiler and libraries from the GNU Compiler Collection
+
+extra:
+  feedstock-name: gfortran_impl_osx-64
+  recipe-maintainers:
+    - beckermr
+    - isuruf
+    - erykoff

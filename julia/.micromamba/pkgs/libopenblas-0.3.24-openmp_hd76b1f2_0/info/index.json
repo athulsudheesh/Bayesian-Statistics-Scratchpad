@@ -1,0 +1,19 @@
+{
+  "arch": "arm64",
+  "build": "openmp_hd76b1f2_0",
+  "build_number": 0,
+  "constrains": [
+    "openblas >=0.3.24,<0.3.25.0a0"
+  ],
+  "depends": [
+    "libgfortran 5.*",
+    "libgfortran5 >=12.3.0",
+    "llvm-openmp >=15.0.7"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "libopenblas",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1693784744674,
+  "version": "0.3.24"
+}

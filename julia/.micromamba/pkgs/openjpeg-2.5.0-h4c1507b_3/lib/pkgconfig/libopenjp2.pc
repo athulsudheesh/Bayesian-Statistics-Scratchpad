@@ -1,0 +1,14 @@
+prefix=/Users/runner/miniforge3/conda-bld/openjpeg_1694708257641/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+bindir=${prefix}/bin
+mandir=${prefix}/
+docdir=${prefix}/
+libdir=${prefix}/lib
+includedir=${prefix}/include/openjpeg-2.5
+
+Name: openjp2
+Description: JPEG2000 library (Part 1 and 2)
+URL: http://www.openjpeg.org/
+Version: 2.5.0
+Libs: -L${libdir} -lopenjp2
+Libs.private: -lm
+Cflags: -I${includedir}

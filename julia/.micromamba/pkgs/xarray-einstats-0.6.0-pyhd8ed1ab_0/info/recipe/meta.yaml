@@ -1,0 +1,79 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Jul 11 15:35:50 2023
+# ------------------------------------------------
+
+package:
+  name: xarray-einstats
+  version: 0.6.0
+source:
+  sha256: ace90601505cfbe2d374762e674557ed14e1725b024823372f7ef9fd237effad
+  url: https://pypi.io/packages/source/x/xarray-einstats/xarray_einstats-0.6.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/xarray-einstats_1689089835984/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - brotli-python 1.0.9 py311ha362b79_9
+    - bzip2 1.0.8 h7f98852_4
+    - ca-certificates 2023.5.7 hbcca054_0
+    - certifi 2023.5.7 pyhd8ed1ab_0
+    - charset-normalizer 3.2.0 pyhd8ed1ab_0
+    - docutils 0.20.1 py311h38be061_0
+    - flit 3.9.0 pyhd8ed1ab_0
+    - flit-core 3.9.0 pyhd8ed1ab_0
+    - idna 3.4 pyhd8ed1ab_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libexpat 2.5.0 hcb278e6_1
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 13.1.0 he5830b7_0
+    - libgomp 13.1.0 he5830b7_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsqlite 3.42.0 h2797004_0
+    - libstdcxx-ng 13.1.0 hfd8a6a1_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4 hcb278e6_0
+    - openssl 3.1.1 hd590300_1
+    - pip 23.1.2 pyhd8ed1ab_0
+    - pysocks 1.7.1 pyha2e5f31_6
+    - python 3.11.4 hab00c5b_0_cpython
+    - python_abi 3.11 3_cp311
+    - readline 8.2 h8228510_1
+    - requests 2.31.0 pyhd8ed1ab_0
+    - setuptools 68.0.0 pyhd8ed1ab_0
+    - tk 8.6.12 h27826a3_0
+    - tomli-w 1.0.0 pyhd8ed1ab_0
+    - tzdata 2023c h71feb2d_0
+    - urllib3 2.0.3 pyhd8ed1ab_1
+    - wheel 0.40.0 pyhd8ed1ab_0
+    - xz 5.2.6 h166bdaf_0
+  run:
+    - numpy >=1.21
+    - python >=3.9
+    - scipy >=1.7
+    - xarray >=2022.09.0
+test:
+  commands:
+    - pip check
+  imports:
+    - xarray_einstats
+  requires:
+    - pip
+about:
+  doc_url: https://xarray-einstats.readthedocs.io/
+  home: https://github.com/arviz-devs/xarray-einstats
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: Stats, linear algebra and einops for xarray.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - OriolAbril
+    - ericmjl

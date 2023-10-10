@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "_path": "lib/pkgconfig/pthread-stubs.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/pthread-stubs_1606147512774/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+      "sha256": "876334443961491f838a83f81f019e54ef99de5f3251ce8aeb31b40bbc2aeb06",
+      "size_in_bytes": 490
+    }
+  ],
+  "paths_version": 1
+}

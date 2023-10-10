@@ -1,0 +1,5 @@
+include/Lerc_c_api.h
+include/Lerc_types.h
+lib/libLerc.4.dylib
+lib/libLerc.dylib
+lib/pkgconfig/Lerc.pc

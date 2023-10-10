@@ -1,0 +1,94 @@
+# This file created by conda-build 3.25.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Sep 26 15:47:06 2023
+# ------------------------------------------------
+
+package:
+  name: xarray
+  version: 2023.9.0
+source:
+  sha256: 271955c05dc626dad37791a7807d920aaf9c64cac71d03b45ec7e402cc646603
+  url: https://pypi.io/packages/source/x/xarray/xarray-2023.9.0.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/xarray_1695743304782/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h7f98852_4
+    - ca-certificates 2023.7.22 hbcca054_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libexpat 2.5.0 hcb278e6_1
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 13.2.0 h807b86a_2
+    - libgomp 13.2.0 h807b86a_2
+    - libnsl 2.0.0 h7f98852_0
+    - libsqlite 3.43.0 h2797004_0
+    - libuuid 2.38.1 h0b41bf4_0
+    - libzlib 1.2.13 hd590300_5
+    - ncurses 6.4 hcb278e6_0
+    - openssl 3.1.3 hd590300_0
+    - packaging 23.1 pyhd8ed1ab_0
+    - pip 23.2.1 pyhd8ed1ab_0
+    - python 3.11.5 hab00c5b_0_cpython
+    - readline 8.2 h8228510_1
+    - setuptools 68.2.2 pyhd8ed1ab_0
+    - setuptools-scm 7.1.0 pyhd8ed1ab_0
+    - tk 8.6.13 h2797004_0
+    - tomli 2.0.1 pyhd8ed1ab_0
+    - typing-extensions 4.8.0 hd8ed1ab_0
+    - typing_extensions 4.8.0 pyha770c72_0
+    - tzdata 2023c h71feb2d_0
+    - wheel 0.41.2 pyhd8ed1ab_0
+    - xz 5.2.6 h166bdaf_0
+  run:
+    - numpy >=1.21
+    - packaging >=21.3
+    - pandas >=1.4
+    - python >=3.9
+  run_constrained:
+    - bottleneck >=1.3
+    - cartopy >=0.20
+    - cftime >=1.6
+    - dask-core >=2022.7
+    - distributed >=2022.7
+    - flox >=0.5
+    - h5netcdf >=1.0
+    - h5py >=3.6
+    - hdf5 >=1.12
+    - iris >=3.2
+    - matplotlib-base >=3.5
+    - nc-time-axis >=1.4
+    - netcdf4 >=1.6.0
+    - numba >=0.55
+    - pint >=0.19
+    - scipy >=1.8
+    - seaborn >=0.11
+    - sparse >=0.13
+    - toolz >=0.12
+    - zarr >=2.12
+test:
+  commands:
+    - pip check
+  imports:
+    - xarray
+    - xarray.backends
+  requires:
+    - pip
+about:
+  home: https://github.com/pydata/xarray
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: N-D labeled arrays and datasets in Python.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - dcherian
+    - jhamman
+    - ocefpaf
+    - shoyer

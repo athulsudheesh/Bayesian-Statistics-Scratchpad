@@ -1,0 +1,27 @@
+{
+    "arch": "arm64",
+    "build": "py311he4fd1f5_1",
+    "build_number": 1,
+    "build_string": "py311he4fd1f5_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libcxx >=15.0.7",
+        "numpy >=1.16",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python_abi 3.11.* *_cp311"
+    ],
+    "fn": "contourpy-1.1.1-py311he4fd1f5_1.conda",
+    "license": "BSD-3-Clause",
+    "md5": "14a8e6c8088ec971aa1a35dfd846797b",
+    "name": "contourpy",
+    "platform": "osx",
+    "sha256": "6fa58b8451707ec4261fdec6c48d4e65addbd168f3c5073c8bdd757db1e2005c",
+    "size": 228551,
+    "subdir": "osx-arm64",
+    "timestamp": 1695554685850,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/contourpy-1.1.1-py311he4fd1f5_1.conda",
+    "version": "1.1.1"
+}

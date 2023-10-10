@@ -1,0 +1,15 @@
+{
+  "CONDA_BUILD_SYSROOT": "/Applications/Xcode_13.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
+  "c_compiler_version": "15",
+  "numpy": "1.23",
+  "libcblas": "3.9 *netlib",
+  "target_platform": "osx-arm64",
+  "cxx_compiler": "clangxx",
+  "liblapack": "3.9 *netlib",
+  "python": "3.11.* *_cpython",
+  "cxx_compiler_version": "15",
+  "libblas": "3.9 *netlib",
+  "c_compiler": "clang",
+  "channel_targets": "conda-forge main",
+  "build_platform": "osx-64"
+}

@@ -1,0 +1,6 @@
+{
+  "blas_impl": "openblas",
+  "blas_default_impl": "openblas",
+  "target_platform": "osx-arm64",
+  "channel_targets": "conda-forge main"
+}

@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "hb547adb_1",
+  "build_number": 1,
+  "constrains": [
+    "jpeg <0.0.0a"
+  ],
+  "depends": [],
+  "license": "IJG AND BSD-3-Clause AND Zlib",
+  "name": "libjpeg-turbo",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1694475104253,
+  "version": "3.0.0"
+}

@@ -1,0 +1,30 @@
+{
+    "arch": "arm64",
+    "build": "py311h9e438b8_1",
+    "build_number": 1,
+    "build_string": "py311h9e438b8_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "libcxx >=15.0.7",
+        "numpy >=1.23.5,<2.0a0",
+        "python >=3.11,<3.12.0a0",
+        "python >=3.11,<3.12.0a0 *_cpython",
+        "python-dateutil >=2.8.1",
+        "python-tzdata >=2022a",
+        "python_abi 3.11.* *_cp311",
+        "pytz >=2020.1"
+    ],
+    "fn": "pandas-2.1.1-py311h9e438b8_1.conda",
+    "license": "BSD-3-Clause",
+    "md5": "35524f54b0a70fcda1f711ca53ba103a",
+    "name": "pandas",
+    "platform": "osx",
+    "sha256": "d501ec3247ec211faf699dd87a175c6998cd57e0169eef31c9b9095b8c2b704d",
+    "size": 14378370,
+    "subdir": "osx-arm64",
+    "timestamp": 1696030913364,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pandas-2.1.1-py311h9e438b8_1.conda",
+    "version": "2.1.1"
+}
