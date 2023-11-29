@@ -8,18 +8,18 @@
     "depends": [
         "libgfortran5 13.2.0 hf226fd6_1"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1",
     "files": [],
     "fn": "libgfortran-5.0.0-13_2_0_hd922786_1.conda",
     "license": "GPL-3.0-only WITH GCC-exception-3.1",
     "license_family": "GPL",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1",
         "type": 1
     },
     "md5": "1ad37a5c60c250bb2b4a9f75563e181c",
     "name": "libgfortran",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libgfortran-5.0.0-13_2_0_hd922786_1.tar.bz2",
     "paths_data": {
         "paths": [],
         "paths_version": 1

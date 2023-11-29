@@ -10,215 +10,215 @@
         "packaging",
         "python >=3.9"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0",
     "files": [
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/AUTHORS.txt",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/INSTALLER",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/LICENSE",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/METADATA",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/RECORD",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/REQUESTED",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/WHEEL",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/direct_url.json",
-        "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/top_level.txt",
-        "lib/python3.11/site-packages/h5netcdf/__init__.py",
-        "lib/python3.11/site-packages/h5netcdf/_version.py",
-        "lib/python3.11/site-packages/h5netcdf/attrs.py",
-        "lib/python3.11/site-packages/h5netcdf/core.py",
-        "lib/python3.11/site-packages/h5netcdf/dimensions.py",
-        "lib/python3.11/site-packages/h5netcdf/legacyapi.py",
-        "lib/python3.11/site-packages/h5netcdf/tests/conftest.py",
-        "lib/python3.11/site-packages/h5netcdf/tests/pytest.ini",
-        "lib/python3.11/site-packages/h5netcdf/tests/test_h5netcdf.py",
-        "lib/python3.11/site-packages/h5netcdf/utils.py",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/__init__.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/_version.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/attrs.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/core.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/dimensions.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/legacyapi.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/tests/__pycache__/conftest.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/tests/__pycache__/test_h5netcdf.cpython-311.pyc",
-        "lib/python3.11/site-packages/h5netcdf/__pycache__/utils.cpython-311.pyc"
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/AUTHORS.txt",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/INSTALLER",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/LICENSE",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/METADATA",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/RECORD",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/REQUESTED",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/WHEEL",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/direct_url.json",
+        "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/top_level.txt",
+        "lib/python3.12/site-packages/h5netcdf/__init__.py",
+        "lib/python3.12/site-packages/h5netcdf/_version.py",
+        "lib/python3.12/site-packages/h5netcdf/attrs.py",
+        "lib/python3.12/site-packages/h5netcdf/core.py",
+        "lib/python3.12/site-packages/h5netcdf/dimensions.py",
+        "lib/python3.12/site-packages/h5netcdf/legacyapi.py",
+        "lib/python3.12/site-packages/h5netcdf/tests/conftest.py",
+        "lib/python3.12/site-packages/h5netcdf/tests/pytest.ini",
+        "lib/python3.12/site-packages/h5netcdf/tests/test_h5netcdf.py",
+        "lib/python3.12/site-packages/h5netcdf/utils.py",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/__init__.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/_version.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/attrs.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/core.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/dimensions.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/legacyapi.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/tests/__pycache__/conftest.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/tests/__pycache__/test_h5netcdf.cpython-312.pyc",
+        "lib/python3.12/site-packages/h5netcdf/__pycache__/utils.cpython-312.pyc"
     ],
     "fn": "h5netcdf-1.2.0-pyhd8ed1ab_0.conda",
     "license": "BSD-3-Clause",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0",
         "type": 1
     },
     "md5": "a98466105e7e208efc69e4cc16c4ee81",
     "name": "h5netcdf",
     "noarch": "python",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/h5netcdf-1.2.0-pyhd8ed1ab_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/AUTHORS.txt",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/AUTHORS.txt",
                 "path_type": "hardlink",
                 "sha256": "2d32b3521f68e1673fa13dda142e3c7320c208fead766e95115ffa46b372e2ea",
                 "sha256_in_prefix": "2d32b3521f68e1673fa13dda142e3c7320c208fead766e95115ffa46b372e2ea",
                 "size_in_bytes": 272
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/INSTALLER",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/INSTALLER",
                 "path_type": "hardlink",
                 "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
                 "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
                 "size_in_bytes": 5
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/LICENSE",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/LICENSE",
                 "path_type": "hardlink",
                 "sha256": "5deaf5260f222ff9fd0dad31b744bdf5b964eadb20f6d79efc97601f5ad64e3b",
                 "sha256_in_prefix": "5deaf5260f222ff9fd0dad31b744bdf5b964eadb20f6d79efc97601f5ad64e3b",
                 "size_in_bytes": 1505
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/METADATA",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/METADATA",
                 "path_type": "hardlink",
                 "sha256": "6f499881f8a648245e4269e789a1387b06ae8c2ee77a01f57897e02a61b09c13",
                 "sha256_in_prefix": "6f499881f8a648245e4269e789a1387b06ae8c2ee77a01f57897e02a61b09c13",
                 "size_in_bytes": 13393
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/RECORD",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/RECORD",
                 "path_type": "hardlink",
                 "sha256": "5b3ae5e73bbef7db7492e16f0c75e9b388cfae93dfda49ac60b655ec7492016a",
                 "sha256_in_prefix": "5b3ae5e73bbef7db7492e16f0c75e9b388cfae93dfda49ac60b655ec7492016a",
                 "size_in_bytes": 2008
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/REQUESTED",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/REQUESTED",
                 "path_type": "hardlink",
                 "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/WHEEL",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/WHEEL",
                 "path_type": "hardlink",
                 "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
                 "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
                 "size_in_bytes": 92
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/direct_url.json",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/direct_url.json",
                 "path_type": "hardlink",
                 "sha256": "6eb03d939c7b28aa9b8bb66f5b802d9ab1764cbf8c83f978b68022aba97548fd",
                 "sha256_in_prefix": "6eb03d939c7b28aa9b8bb66f5b802d9ab1764cbf8c83f978b68022aba97548fd",
                 "size_in_bytes": 104
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf-1.2.0.dist-info/top_level.txt",
+                "_path": "lib/python3.12/site-packages/h5netcdf-1.2.0.dist-info/top_level.txt",
                 "path_type": "hardlink",
                 "sha256": "15bfca229384e8c06a8d2bf1575032ee861c7b599d990d693bd25024f0de1aa8",
                 "sha256_in_prefix": "15bfca229384e8c06a8d2bf1575032ee861c7b599d990d693bd25024f0de1aa8",
                 "size_in_bytes": 9
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__init__.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__init__.py",
                 "path_type": "hardlink",
                 "sha256": "3c7c6ee4884dec732f9f513b454e11ae0fda0273b0cfd34fdf8def1c1838396b",
                 "sha256_in_prefix": "3c7c6ee4884dec732f9f513b454e11ae0fda0273b0cfd34fdf8def1c1838396b",
                 "size_in_bytes": 455
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/_version.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/_version.py",
                 "path_type": "hardlink",
                 "sha256": "0a29461f271247399212708c42f4d127927f2d6c4cb3efbe52a9156ce990dab0",
                 "sha256_in_prefix": "0a29461f271247399212708c42f4d127927f2d6c4cb3efbe52a9156ce990dab0",
                 "size_in_bytes": 160
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/attrs.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/attrs.py",
                 "path_type": "hardlink",
                 "sha256": "2ac1665344d67cb5f60f233302f4c84d4f2ffc4069989b9feda0aeba25e4a771",
                 "sha256_in_prefix": "2ac1665344d67cb5f60f233302f4c84d4f2ffc4069989b9feda0aeba25e4a771",
                 "size_in_bytes": 3581
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/core.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/core.py",
                 "path_type": "hardlink",
                 "sha256": "939eff93f9876cce22161b02d891e79176b0aa15a140d83dad9235b510739c4e",
                 "sha256_in_prefix": "939eff93f9876cce22161b02d891e79176b0aa15a140d83dad9235b510739c4e",
                 "size_in_bytes": 45587
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/dimensions.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/dimensions.py",
                 "path_type": "hardlink",
                 "sha256": "c048b6a6e444c86a5360001f714ce96e1615c6d39986bf39c5ccf765402d072c",
                 "sha256_in_prefix": "c048b6a6e444c86a5360001f714ce96e1615c6d39986bf39c5ccf765402d072c",
                 "size_in_bytes": 7826
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/legacyapi.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/legacyapi.py",
                 "path_type": "hardlink",
                 "sha256": "e6819cf4654fd26f7ee8ae872df69328ed92a019187965fec1d2082f7bbffd88",
                 "sha256_in_prefix": "e6819cf4654fd26f7ee8ae872df69328ed92a019187965fec1d2082f7bbffd88",
                 "size_in_bytes": 7109
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/tests/conftest.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/tests/conftest.py",
                 "path_type": "hardlink",
                 "sha256": "708d015ca33f2d176c43cbc0977bc9d2bd52846a4d51f8f6c4e1fa2a681f647c",
                 "sha256_in_prefix": "708d015ca33f2d176c43cbc0977bc9d2bd52846a4d51f8f6c4e1fa2a681f647c",
                 "size_in_bytes": 5034
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/tests/pytest.ini",
+                "_path": "lib/python3.12/site-packages/h5netcdf/tests/pytest.ini",
                 "path_type": "hardlink",
                 "sha256": "aee271acb742200e1b08f56e3d08f1b0b4a5bd5c6e22c21a90aea240e9b3f9a9",
                 "sha256_in_prefix": "aee271acb742200e1b08f56e3d08f1b0b4a5bd5c6e22c21a90aea240e9b3f9a9",
                 "size_in_bytes": 107
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/tests/test_h5netcdf.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/tests/test_h5netcdf.py",
                 "path_type": "hardlink",
                 "sha256": "26c32de9aaf899b330b6991a1de4aa6bf9dc8203c793266fb58a625844fe8491",
                 "sha256_in_prefix": "26c32de9aaf899b330b6991a1de4aa6bf9dc8203c793266fb58a625844fe8491",
                 "size_in_bytes": 84177
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/utils.py",
+                "_path": "lib/python3.12/site-packages/h5netcdf/utils.py",
                 "path_type": "hardlink",
                 "sha256": "e84f8700813438d3322f84b1237a14c90beb0e00d689f47910f75ef7557dad3d",
                 "sha256_in_prefix": "e84f8700813438d3322f84b1237a14c90beb0e00d689f47910f75ef7557dad3d",
                 "size_in_bytes": 674
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/__init__.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/__init__.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/_version.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/_version.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/attrs.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/attrs.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/core.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/core.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/dimensions.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/dimensions.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/legacyapi.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/legacyapi.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/tests/__pycache__/conftest.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/tests/__pycache__/conftest.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/tests/__pycache__/test_h5netcdf.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/tests/__pycache__/test_h5netcdf.cpython-312.pyc",
                 "path_type": "pyc_file"
             },
             {
-                "_path": "lib/python3.11/site-packages/h5netcdf/__pycache__/utils.cpython-311.pyc",
+                "_path": "lib/python3.12/site-packages/h5netcdf/__pycache__/utils.cpython-312.pyc",
                 "path_type": "pyc_file"
             }
         ],

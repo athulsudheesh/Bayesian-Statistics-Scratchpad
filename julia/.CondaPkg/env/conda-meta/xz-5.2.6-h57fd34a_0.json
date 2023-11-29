@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/xz-5.2.6-h57fd34a_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/xz-5.2.6-h57fd34a_0",
     "files": [
         "bin/lzcat",
         "bin/lzcmp",
@@ -95,12 +95,12 @@
     "fn": "xz-5.2.6-h57fd34a_0.tar.bz2",
     "license": "LGPL-2.1 and GPL-2.0",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/xz-5.2.6-h57fd34a_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/xz-5.2.6-h57fd34a_0",
         "type": 1
     },
     "md5": "39c6b54e94014701dd157f4f576ed211",
     "name": "xz",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/xz-5.2.6-h57fd34a_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/xz-5.2.6-h57fd34a_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -371,7 +371,7 @@
                 "_path": "lib/pkgconfig/liblzma.pc",
                 "path_type": "hardlink",
                 "sha256": "0018a85117bebe6683a579395d3d8050768c7708a6a9ccb3b03531e8873c1727",
-                "sha256_in_prefix": "657186b2c9f7e39ddce07748c6bb7de3697abcbeb211366de28596568a775151",
+                "sha256_in_prefix": "3cb7dd965996a0bc0c1ab6e9802b5f277aed59a0cb8be04afa70e9dc40694940",
                 "size_in_bytes": 1394
             },
             {

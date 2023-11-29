@@ -21,7 +21,7 @@
 ## then modify them accordingly to represent the new paths.               ##
 ##                                                                        ##
 ############################################################################
-prefix="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
+prefix="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include"
@@ -86,7 +86,7 @@ FLINKERBASE="arm64-apple-darwin20.0.0-gfortran"
 H5BLD_FCFLAGS=" "
 F9XMODFLAG="-I"
 F9XSUFFIXFLAG=""
-H5BLD_LDFLAGS=" -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
+H5BLD_LDFLAGS=" -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
 H5BLD_LIBS="-lcrypto -lcurl -lpthread -lsz -lz -ldl -lm "
 
 FC="${HDF5_FC:-$FCBASE}"

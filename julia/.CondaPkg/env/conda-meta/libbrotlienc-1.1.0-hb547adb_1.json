@@ -8,7 +8,7 @@
     "depends": [
         "libbrotlicommon 1.1.0 hb547adb_1"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlienc-1.1.0-hb547adb_1",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlienc-1.1.0-hb547adb_1",
     "files": [
         "lib/libbrotlienc.1.1.0.dylib",
         "lib/libbrotlienc.1.dylib",
@@ -18,12 +18,12 @@
     "fn": "libbrotlienc-1.1.0-hb547adb_1.conda",
     "license": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlienc-1.1.0-hb547adb_1",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlienc-1.1.0-hb547adb_1",
         "type": 1
     },
     "md5": "d7e077f326a98b2cc60087eaff7c730b",
     "name": "libbrotlienc",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlienc-1.1.0-hb547adb_1.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlienc-1.1.0-hb547adb_1.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -49,7 +49,7 @@
                 "_path": "lib/pkgconfig/libbrotlienc.pc",
                 "path_type": "hardlink",
                 "sha256": "d5df702433721ac9b40e3d278a5680b48f45d1ecede57ac23d885738faf504f8",
-                "sha256_in_prefix": "dc49632ddf327209ed752a083e4b1714c41c298957b87cf60ce0b96452d80b5f",
+                "sha256_in_prefix": "5d13946dca6db8808f31af7702eac4edcb8a4d9ddf4312ab71e575215f63104d",
                 "size_in_bytes": 787
             }
         ],

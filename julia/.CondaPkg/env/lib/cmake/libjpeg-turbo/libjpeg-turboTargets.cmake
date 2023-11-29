@@ -47,7 +47,7 @@ unset(_cmake_expected_targets)
 
 
 # The installation prefix configured by this project.
-set(_IMPORT_PREFIX "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env")
+set(_IMPORT_PREFIX "/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env")
 
 # Create imported target libjpeg-turbo::jpeg
 add_library(libjpeg-turbo::jpeg SHARED IMPORTED)

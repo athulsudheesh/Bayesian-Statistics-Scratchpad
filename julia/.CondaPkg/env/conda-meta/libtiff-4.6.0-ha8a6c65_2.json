@@ -15,7 +15,7 @@
         "xz >=5.2.6,<6.0a0",
         "zstd >=1.5.5,<1.6.0a0"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libtiff-4.6.0-ha8a6c65_2",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libtiff-4.6.0-ha8a6c65_2",
     "files": [
         "bin/tiffcp",
         "bin/tiffdump",
@@ -36,12 +36,12 @@
     "fn": "libtiff-4.6.0-ha8a6c65_2.conda",
     "license": "HPND",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libtiff-4.6.0-ha8a6c65_2",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libtiff-4.6.0-ha8a6c65_2",
         "type": 1
     },
     "md5": "596d6d949bab9a75a492d451f521f457",
     "name": "libtiff",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libtiff-4.6.0-ha8a6c65_2.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libtiff-4.6.0-ha8a6c65_2.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -144,7 +144,7 @@
                 "_path": "lib/pkgconfig/libtiff-4.pc",
                 "path_type": "hardlink",
                 "sha256": "7098562691b1d9fc1ed0f96546d8e8a6f783e7ab588765df6dad336d68ff2900",
-                "sha256_in_prefix": "fd43c02f3b9b6b9d3a62c315cd53a8a23ac419d23b5df3afee67015f2524d4ca",
+                "sha256_in_prefix": "d5dcf2718a76880342b54c36ef986c54f93a90e96f422dacdc68fc37cdd47341",
                 "size_in_bytes": 602
             }
         ],

@@ -8,7 +8,7 @@
         "jpeg <0.0.0a"
     ],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libjpeg-turbo-3.0.0-hb547adb_1",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libjpeg-turbo-3.0.0-hb547adb_1",
     "files": [
         "bin/cjpeg",
         "bin/djpeg",
@@ -53,12 +53,12 @@
     "fn": "libjpeg-turbo-3.0.0-hb547adb_1.conda",
     "license": "IJG AND BSD-3-Clause AND Zlib",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libjpeg-turbo-3.0.0-hb547adb_1",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libjpeg-turbo-3.0.0-hb547adb_1",
         "type": 1
     },
     "md5": "3ff1e053dc3a2b8e36b9bfa4256a58d1",
     "name": "libjpeg-turbo",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libjpeg-turbo-3.0.0-hb547adb_1.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libjpeg-turbo-3.0.0-hb547adb_1.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -156,14 +156,14 @@
                 "_path": "lib/cmake/libjpeg-turbo/libjpeg-turboTargets-release.cmake",
                 "path_type": "hardlink",
                 "sha256": "8782e2bbf574ba0c8047485d2f5d2a33b1f11d328a401ea78da9757e1b1e4952",
-                "sha256_in_prefix": "4a16ea44a55445a8053c428e63651bc4d5102461798b9d4926b9b040d3cc27ca",
+                "sha256_in_prefix": "779f8bc35d627b014b7aa24f4f213bc8c209ec80b637a10694e638b7d6a960ad",
                 "size_in_bytes": 4409
             },
             {
                 "_path": "lib/cmake/libjpeg-turbo/libjpeg-turboTargets.cmake",
                 "path_type": "hardlink",
                 "sha256": "21ccb2bf2932195a2ecefef9462fcc70319a6a183691d8f6b1995bc5c68989a0",
-                "sha256_in_prefix": "8c41a117a2249f1afb313d8e85012f7b560e9625b21ec7054a2d4b3433e4d9b7",
+                "sha256_in_prefix": "b31e213f5949a79bef11aed1a240c626cdc60be480498cbbebe4011cf7c82e48",
                 "size_in_bytes": 4659
             },
             {
@@ -222,14 +222,14 @@
                 "_path": "lib/pkgconfig/libjpeg.pc",
                 "path_type": "hardlink",
                 "sha256": "8427cc38c3f096481182342a8b0a1044ee2579ac7c693f3908e63171ffa3a3d6",
-                "sha256_in_prefix": "d1995acca0d7aaad029fba95ea6076b6602a8fe2cdc79ecc6f7d16014a2c903d",
+                "sha256_in_prefix": "554db185d517473503d858547adf256a05eea352c143eab5f28c99c37f5ca378",
                 "size_in_bytes": 1225
             },
             {
                 "_path": "lib/pkgconfig/libturbojpeg.pc",
                 "path_type": "hardlink",
                 "sha256": "2709d0f68358ddabd29495262dc750bd61c00585d8a08b590cc6789044a14e9e",
-                "sha256_in_prefix": "26840aa280f7ce3692b54a0292faf1240b79034e496e8620ab2fe138ad75c42e",
+                "sha256_in_prefix": "c988338bada76df3b30894f25f1f10e7d0db7a40a5f5430625bef7dad386b696",
                 "size_in_bytes": 1237
             },
             {

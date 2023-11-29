@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/c-ares-1.20.1-h93a5062_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/c-ares-1.20.1-h93a5062_0",
     "files": [
         "bin/adig",
         "bin/ahost",
@@ -90,12 +90,12 @@
     "license": "MIT",
     "license_family": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/c-ares-1.20.1-h93a5062_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/c-ares-1.20.1-h93a5062_0",
         "type": 1
     },
     "md5": "ff730651c34139afe7d29e3e8b8481e2",
     "name": "c-ares",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/c-ares-1.20.1-h93a5062_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/c-ares-1.20.1-h93a5062_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -205,7 +205,7 @@
                 "_path": "lib/pkgconfig/libcares.pc",
                 "path_type": "hardlink",
                 "sha256": "45c3a04b8b48ff13426b340eb967868916ab4af6743a2805683b0a93ab1436c0",
-                "sha256_in_prefix": "c6e28ca964f0650582dcdcec73a9ac2fa2457ac6fb71a9c56f56a9548bf089ac",
+                "sha256_in_prefix": "8924417b223a67be18dd54ab741f2f8db3b7b1105fd7aacba51134839873e795",
                 "size_in_bytes": 1627
             },
             {

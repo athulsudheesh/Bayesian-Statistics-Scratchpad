@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libdeflate-1.19-hb547adb_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libdeflate-1.19-hb547adb_0",
     "files": [
         "bin/libdeflate-gunzip",
         "bin/libdeflate-gzip",
@@ -22,12 +22,12 @@
     "fn": "libdeflate-1.19-hb547adb_0.conda",
     "license": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libdeflate-1.19-hb547adb_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libdeflate-1.19-hb547adb_0",
         "type": 1
     },
     "md5": "f8c1eb0e99e90b55965c6558578537cc",
     "name": "libdeflate",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libdeflate-1.19-hb547adb_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libdeflate-1.19-hb547adb_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -76,7 +76,7 @@
                 "_path": "lib/cmake/libdeflate/libdeflate-targets.cmake",
                 "path_type": "hardlink",
                 "sha256": "8112abe74fd2c3e4fb6c0feed46ff81ce1ee1c9a17d18fcae43bf860bef02d61",
-                "sha256_in_prefix": "e125c816cf960a1b10ea9fb9530fbb6fa78b4a7146bc2c3f465b2ff22a537d1b",
+                "sha256_in_prefix": "661d57fa4d330d01c58463d7145d30e4c72b2aa426871f0899dfefe5035708be",
                 "size_in_bytes": 4250
             },
             {
@@ -96,7 +96,7 @@
                 "_path": "lib/pkgconfig/libdeflate.pc",
                 "path_type": "hardlink",
                 "sha256": "46f195adfaf46375595ab922070919ec69754cda5af547c61f9393a493b9ac25",
-                "sha256_in_prefix": "9eeaf2a7fdf43ae392dcc268ccc600cd687dbb20c98086212d0f2a4411782db5",
+                "sha256_in_prefix": "6abb367a1e9b77cd833759e516f3c76be50a735d4c3dc03a83910cf1d7066b25",
                 "size_in_bytes": 1011
             }
         ],

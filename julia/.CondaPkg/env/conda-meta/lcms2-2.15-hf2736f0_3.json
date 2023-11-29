@@ -9,7 +9,7 @@
         "libjpeg-turbo >=3.0.0,<4.0a0",
         "libtiff >=4.6.0,<4.7.0a0"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/lcms2-2.15-hf2736f0_3",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/lcms2-2.15-hf2736f0_3",
     "files": [
         "bin/jpgicc",
         "bin/linkicc",
@@ -31,12 +31,12 @@
     "license": "MIT",
     "license_family": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/lcms2-2.15-hf2736f0_3",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/lcms2-2.15-hf2736f0_3",
         "type": 1
     },
     "md5": "bbaac531169fed3e09ae31aff80aa069",
     "name": "lcms2",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/lcms2-2.15-hf2736f0_3.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/lcms2-2.15-hf2736f0_3.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -105,7 +105,7 @@
                 "_path": "lib/pkgconfig/lcms2.pc",
                 "path_type": "hardlink",
                 "sha256": "2ff60dfda81a8e17f27225912ec361c2f20387a36d735ee4488e93ace5115970",
-                "sha256_in_prefix": "ed1c8725b75e29d00deb1ca441f5915599a7c1fbadd360a7cf0b6c20f508d2c1",
+                "sha256_in_prefix": "144713e09d198106c930756d539ec0b7fcd8eb1f9261388db72055bff4499982",
                 "size_in_bytes": 489
             },
             {

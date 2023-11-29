@@ -35,17 +35,17 @@ if test $? -eq 0 ; then
   dynamic_libs=` --libs freetype2`
   static_libs=` --static --libs freetype2`
 else
-  prefix="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
-  exec_prefix="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
+  prefix="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
+  exec_prefix="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
 
-  includedir="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
-  libdir="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
+  includedir="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
+  libdir="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
 
   version=24.3.18
 
   cflags="-I${SYSROOT}$includedir/freetype2"
   dynamic_libs="-lfreetype"
-  static_libs="-lfreetype -lz -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lpng16 -lz"
+  static_libs="-lfreetype -lz -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lpng16 -lz"
   if test "${SYSROOT}$libdir" != "/usr/lib"   &&
      test "${SYSROOT}$libdir" != "/usr/lib64" ; then
     libs_L="-L${SYSROOT}$libdir"

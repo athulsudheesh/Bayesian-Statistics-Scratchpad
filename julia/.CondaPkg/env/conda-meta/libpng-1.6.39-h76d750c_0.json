@@ -8,7 +8,7 @@
     "depends": [
         "libzlib >=1.2.13,<1.3.0a0"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libpng-1.6.39-h76d750c_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libpng-1.6.39-h76d750c_0",
     "files": [
         "bin/libpng-config",
         "bin/libpng16-config",
@@ -34,25 +34,25 @@
     "fn": "libpng-1.6.39-h76d750c_0.conda",
     "license": "zlib-acknowledgement",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libpng-1.6.39-h76d750c_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libpng-1.6.39-h76d750c_0",
         "type": 1
     },
     "md5": "0078e6327c13cfdeae6ff7601e360383",
     "name": "libpng",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libpng-1.6.39-h76d750c_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libpng-1.6.39-h76d750c_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
                 "_path": "bin/libpng-config",
                 "path_type": "softlink",
-                "sha256_in_prefix": "8521a48f99501e7d46bf90798e8ed925ddf403ba4d7d33a57eb28456e1cdad0e",
+                "sha256_in_prefix": "6b1fa7d46d6164364f8096729062f0832ca550eefc74748632fa5ab268ed0ed4",
                 "size_in_bytes": 2564
             },
             {
                 "_path": "bin/libpng16-config",
                 "path_type": "hardlink",
                 "sha256": "a02aa0f11fe1a5b49c689f74280a20a791dcce87acbd5911dc7e411347f8f01f",
-                "sha256_in_prefix": "8521a48f99501e7d46bf90798e8ed925ddf403ba4d7d33a57eb28456e1cdad0e",
+                "sha256_in_prefix": "6b1fa7d46d6164364f8096729062f0832ca550eefc74748632fa5ab268ed0ed4",
                 "size_in_bytes": 2564
             },
             {
@@ -143,14 +143,14 @@
             {
                 "_path": "lib/pkgconfig/libpng.pc",
                 "path_type": "softlink",
-                "sha256_in_prefix": "5563eeaa51d491b25daf7762fe1b2aa7616258e55ecbb95a30a27dd3e1ed97af",
+                "sha256_in_prefix": "8279a6f7502a1ff75437eeeecc71df2661686a4aa85449eeabf02c5833c83e0c",
                 "size_in_bytes": 510
             },
             {
                 "_path": "lib/pkgconfig/libpng16.pc",
                 "path_type": "hardlink",
                 "sha256": "1521996ebf8ae08bf088c5b42d811cc5e2c9c4220943686ebc4f88301829b852",
-                "sha256_in_prefix": "5563eeaa51d491b25daf7762fe1b2aa7616258e55ecbb95a30a27dd3e1ed97af",
+                "sha256_in_prefix": "8279a6f7502a1ff75437eeeecc71df2661686a4aa85449eeabf02c5833c83e0c",
                 "size_in_bytes": 510
             },
             {

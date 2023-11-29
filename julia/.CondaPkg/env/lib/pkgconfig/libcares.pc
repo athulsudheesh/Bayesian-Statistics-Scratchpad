@@ -6,10 +6,10 @@
 #
 # Copyright (C) The c-ares project and its contributors
 # SPDX-License-Identifier: MIT
-prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
-exec_prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/bin
-libdir=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
-includedir=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
+prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+exec_prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/bin
+libdir=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
+includedir=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
 
 Name: c-ares
 URL: https://c-ares.org/

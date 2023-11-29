@@ -8,7 +8,7 @@
         "zlib 1.2.13 *_5"
     ],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libzlib-1.2.13-h53f4e23_5",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libzlib-1.2.13-h53f4e23_5",
     "files": [
         "lib/libz.1.2.13.dylib",
         "lib/libz.1.dylib"
@@ -17,12 +17,12 @@
     "license": "Zlib",
     "license_family": "Other",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libzlib-1.2.13-h53f4e23_5",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libzlib-1.2.13-h53f4e23_5",
         "type": 1
     },
     "md5": "1a47f5236db2e06a320ffa0392f81bd8",
     "name": "libzlib",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libzlib-1.2.13-h53f4e23_5.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libzlib-1.2.13-h53f4e23_5.tar.bz2",
     "paths_data": {
         "paths": [
             {

@@ -8,7 +8,7 @@
 /* #undef H5_DEBUG_BUILD */
 
 /* Define the default plugins path to compile */
-#define H5_DEFAULT_PLUGINDIR "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/hdf5/plugin"
+#define H5_DEFAULT_PLUGINDIR "/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/hdf5/plugin"
 
 /* Define if dev_t is a scalar */
 #define H5_DEV_T_IS_SCALAR 1

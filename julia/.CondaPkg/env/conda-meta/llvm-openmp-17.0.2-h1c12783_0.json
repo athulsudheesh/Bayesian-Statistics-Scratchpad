@@ -8,7 +8,7 @@
         "openmp 17.0.2|17.0.2.*"
     ],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/llvm-openmp-17.0.2-h1c12783_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-17.0.2-h1c12783_0",
     "files": [
         "include/omp-tools.h",
         "include/omp.h",
@@ -20,12 +20,12 @@
     "fn": "llvm-openmp-17.0.2-h1c12783_0.conda",
     "license": "Apache-2.0 WITH LLVM-exception",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/llvm-openmp-17.0.2-h1c12783_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-17.0.2-h1c12783_0",
         "type": 1
     },
     "md5": "cc2d5e802daf2135a1eaa5983ee47827",
     "name": "llvm-openmp",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/llvm-openmp-17.0.2-h1c12783_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/llvm-openmp-17.0.2-h1c12783_0.tar.bz2",
     "paths_data": {
         "paths": [
             {

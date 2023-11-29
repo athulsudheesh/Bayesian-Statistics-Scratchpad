@@ -1,7 +1,7 @@
-prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
-exec_prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
-libdir=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
-includedir=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
+prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+exec_prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+libdir=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
+includedir=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
 
 Name: FreeType 2
 URL: https://freetype.org
@@ -9,6 +9,6 @@ Description: A free, high-quality, and portable font engine.
 Version: 24.3.18
 Requires: 
 Requires.private: 
-Libs: -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lfreetype
-Libs.private: -lz -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lpng16 -lz
+Libs: -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lfreetype
+Libs.private: -lz -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lpng16 -lz
 Cflags: -I${includedir}/freetype2

@@ -8,7 +8,7 @@
     "depends": [
         "ncurses >=6.2,<6.3.0a0"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libedit-3.1.20191231-hc8eb9b7_2",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libedit-3.1.20191231-hc8eb9b7_2",
     "files": [
         "include/editline/readline.h",
         "include/histedit.h",
@@ -62,12 +62,12 @@
     "license": "BSD-2-Clause",
     "license_family": "BSD",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libedit-3.1.20191231-hc8eb9b7_2",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libedit-3.1.20191231-hc8eb9b7_2",
         "type": 1
     },
     "md5": "30e4362988a2623e9eb34337b83e01f9",
     "name": "libedit",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libedit-3.1.20191231-hc8eb9b7_2.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libedit-3.1.20191231-hc8eb9b7_2.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -88,20 +88,20 @@
                 "_path": "lib/libedit.0.dylib",
                 "path_type": "hardlink",
                 "sha256": "7c9c06cad22e32b3f2b475b439960781efa4939335f676406b470c84e9b054e1",
-                "sha256_in_prefix": "34171ed81ab6003439523e1bca63f426583f2d11857fa0478a8a85983a55569a",
+                "sha256_in_prefix": "b40d0c57dba4642d188e060a6665d8239394e4e42efea835f790380dec973ab7",
                 "size_in_bytes": 224464
             },
             {
                 "_path": "lib/libedit.dylib",
                 "path_type": "softlink",
-                "sha256_in_prefix": "34171ed81ab6003439523e1bca63f426583f2d11857fa0478a8a85983a55569a",
+                "sha256_in_prefix": "b40d0c57dba4642d188e060a6665d8239394e4e42efea835f790380dec973ab7",
                 "size_in_bytes": 224464
             },
             {
                 "_path": "lib/pkgconfig/libedit.pc",
                 "path_type": "hardlink",
                 "sha256": "2bdc15c4c112af27a1c2541088b37cf1dfa4c162ab3b647d27bc7dc080750183",
-                "sha256_in_prefix": "d4fb7b3d0d686c4b89bb6cb3a5208352fdb7a727cb3d8e0460c4c0e2d1643956",
+                "sha256_in_prefix": "e21a28f7fedf48d6e04a62aacf2ddb186bb67aa1b75467fe83abdf701b197d33",
                 "size_in_bytes": 587
             },
             {

@@ -24,8 +24,8 @@ TDBC_BUILD_LIB_SPEC="-L/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/
 
 # String to pass to the linker to pick up the TDBC library from its installed
 # dir.
-tdbc_LIB_SPEC="-L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbc1.1.5"
-TDBC_LIB_SPEC="-L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbc1.1.5"
+tdbc_LIB_SPEC="-L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbc1.1.5"
+TDBC_LIB_SPEC="-L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbc1.1.5"
 
 # Name of the TBDC stub library
 tdbc_STUB_LIB_FILE="libtdbcstub1.1.5.a"
@@ -38,16 +38,16 @@ TDBC_BUILD_STUB_LIB_SPEC="-L/Users/runner/miniforge3/conda-bld/tk_1695505996682/
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # installed directory
-tdbc_STUB_LIB_SPEC="-L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbcstub1.1.5"
-TDBC_STUB_LIB_SPEC="-L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbcstub1.1.5"
+tdbc_STUB_LIB_SPEC="-L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbcstub1.1.5"
+TDBC_STUB_LIB_SPEC="-L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5 -ltdbcstub1.1.5"
 
 # Path name of the TDBC stub library in its build directory
 tdbc_BUILD_STUB_LIB_PATH="/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/tcl8.6.13/unix/pkgs/tdbc1.1.5/libtdbcstub1.1.5.a"
 TDBC_BUILD_STUB_LIB_PATH="/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/tcl8.6.13/unix/pkgs/tdbc1.1.5/libtdbcstub1.1.5.a"
 
 # Path name of the TDBC stub library in its installed directory
-tdbc_STUB_LIB_PATH="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5/libtdbcstub1.1.5.a"
-TDBC_STUB_LIB_PATH="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5/libtdbcstub1.1.5.a"
+tdbc_STUB_LIB_PATH="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5/libtdbcstub1.1.5.a"
+TDBC_STUB_LIB_PATH="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5/libtdbcstub1.1.5.a"
 
 # Location of the top-level source directories from which TDBC was built.
 # This is the directory that contains doc/, generic/ and so on.  If TDBC
@@ -59,8 +59,8 @@ TDBC_SRC_DIR="/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/tcl8.6.13
 
 # String to pass to the compiler so that an extension can find installed TDBC
 # headers
-tdbc_INCLUDE_SPEC="-I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
-TDBC_INCLUDE_SPEC="-I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
+tdbc_INCLUDE_SPEC="-I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
+TDBC_INCLUDE_SPEC="-I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
 
 # String to pass to the compiler so that an extension can find TDBC headers
 # in the source directory
@@ -68,8 +68,8 @@ tdbc_BUILD_INCLUDE_SPEC="-I/Users/runner/miniforge3/conda-bld/tk_1695505996682/w
 TDBC_BUILD_INCLUDE_SPEC="-I/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/tcl8.6.13/pkgs/tdbc1.1.5/generic"
 
 # Path name where .tcl files in the tdbc package appear at run time.
-tdbc_LIBRARY_PATH="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5"
-TDBC_LIBRARY_PATH="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5"
+tdbc_LIBRARY_PATH="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5"
+TDBC_LIBRARY_PATH="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib/tdbc1.1.5"
 
 # Path name where .tcl files in the tdbc package appear at build time.
 tdbc_BUILD_LIBRARY_PATH="/Users/runner/miniforge3/conda-bld/tk_1695505996682/work/tcl8.6.13/pkgs/tdbc1.1.5/library"

@@ -23,7 +23,7 @@
 #
 ###########################################################################
 
-prefix="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
+prefix="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -74,7 +74,7 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/ssl/cacert.pem"
+        echo "/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/ssl/cacert.pem"
         ;;
 
     --cc)
@@ -86,7 +86,7 @@ while test $# -gt 0; do
         ;;
 
     --feature|--features)
-        for feature in AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile MultiSSL NTLM NTLM_WB SPNEGO SSL TLS-SRP UnixSockets alt-svc libz threadsafe zstd ""; do
+        for feature in AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile MultiSSL NTLM SPNEGO SSL TLS-SRP UnixSockets alt-svc libz threadsafe zstd ""; do
             test -n "$feature" && echo "$feature"
         done
         ;;
@@ -98,7 +98,7 @@ while test $# -gt 0; do
         ;;
 
     --version)
-        echo libcurl 8.3.0
+        echo libcurl 8.4.0
         exit 0
         ;;
 
@@ -110,11 +110,11 @@ while test $# -gt 0; do
         # dash as that's used for things like version 1.2.3-CVS
         cpatch=`echo $checkfor | cut -d. -f3 | cut -d- -f1`
 
-        vmajor=`echo 8.3.0 | cut -d. -f1`
-        vminor=`echo 8.3.0 | cut -d. -f2`
+        vmajor=`echo 8.4.0 | cut -d. -f1`
+        vminor=`echo 8.4.0 | cut -d. -f2`
         # when extracting the patch part we strip off everything after a
         # dash as that's used for things like version 1.2.3-CVS
-        vpatch=`echo 8.3.0 | cut -d. -f3 | cut -d- -f1`
+        vpatch=`echo 8.4.0 | cut -d. -f3 | cut -d- -f1`
 
         if test "$vmajor" -gt "$cmajor"; then
             exit 0;
@@ -130,12 +130,12 @@ while test $# -gt 0; do
             fi
         fi
 
-        echo "requested version $checkfor is newer than existing 8.3.0"
+        echo "requested version $checkfor is newer than existing 8.4.0"
         exit 1
         ;;
 
     --vernum)
-        echo 080300
+        echo 080400
         exit 0
         ;;
 
@@ -174,7 +174,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo "${exec_prefix}/lib/libcurl.a" -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -framework CoreFoundation -framework SystemConfiguration -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -framework CoreFoundation -framework Security -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -lgssapi_krb5 -lresolv -lzstd -lzstd -lz
+          echo "${exec_prefix}/lib/libcurl.a" -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -framework CoreFoundation -framework CoreServices -framework SystemConfiguration -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -framework CoreFoundation -framework CoreServices -framework Security -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -lnghttp2 -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -lgssapi_krb5 -lresolv -lzstd -lzstd -lz
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
@@ -182,7 +182,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--host=arm64-apple-darwin20.0.0' '--disable-ldap' '--with-ca-bundle=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/ssl/cacert.pem' '--with-openssl=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-secure-transport' '--with-default-ssl-backend=openssl' '--with-zlib=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-zstd=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-gssapi=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-libssh2=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-nghttp2=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=arm64-apple-darwin20.0.0' 'CC=arm64-apple-darwin20.0.0-clang' 'CFLAGS=-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/curl_split_recipe_1694599690942/work=/usr/local/src/conda/curl_split_recipe-8.3.0 -fdebug-prefix-map=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix -D_FORTIFY_SOURCE=2 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0' 'LDFLAGS=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib' 'CPPFLAGS=-D_FORTIFY_SOURCE=2 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0'"
+        echo " '--prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--host=arm64-apple-darwin20.0.0' '--disable-ldap' '--with-ca-bundle=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/ssl/cacert.pem' '--with-openssl=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-secure-transport' '--with-default-ssl-backend=openssl' '--with-zlib=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-zstd=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-gssapi=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-libssh2=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' '--with-nghttp2=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=arm64-apple-darwin20.0.0' 'CC=arm64-apple-darwin20.0.0-clang' 'CFLAGS=-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/curl_split_recipe_1697008989419/work=/usr/local/src/conda/curl_split_recipe-8.4.0 -fdebug-prefix-map=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix -D_FORTIFY_SOURCE=2 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0' 'LDFLAGS=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib' 'CPPFLAGS=-D_FORTIFY_SOURCE=2 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0'"
         ;;
 
     *)

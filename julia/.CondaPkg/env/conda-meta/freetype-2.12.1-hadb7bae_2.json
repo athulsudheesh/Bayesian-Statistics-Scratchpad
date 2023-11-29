@@ -9,7 +9,7 @@
         "libpng >=1.6.39,<1.7.0a0",
         "libzlib >=1.2.13,<1.3.0a0"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/freetype-2.12.1-hadb7bae_2",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/freetype-2.12.1-hadb7bae_2",
     "files": [
         "bin/freetype-config",
         "include/freetype2/freetype/config/ftconfig.h",
@@ -77,19 +77,19 @@
     "fn": "freetype-2.12.1-hadb7bae_2.conda",
     "license": "GPL-2.0-only OR FTL",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/freetype-2.12.1-hadb7bae_2",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/freetype-2.12.1-hadb7bae_2",
         "type": 1
     },
     "md5": "e6085e516a3e304ce41a8ee08b9b89ad",
     "name": "freetype",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/freetype-2.12.1-hadb7bae_2.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/freetype-2.12.1-hadb7bae_2.tar.bz2",
     "paths_data": {
         "paths": [
             {
                 "_path": "bin/freetype-config",
                 "path_type": "hardlink",
                 "sha256": "9a8fd5e62fdea99e596819910ec85165cd0771babbc40cd16ac97b9b8b461eb3",
-                "sha256_in_prefix": "baa14e0359b957b6f699b0961b0ace822854bf50241192b9fc7d3cf2f73e8191",
+                "sha256_in_prefix": "73a48c7d37e849f4eeab0138fde113dcb065f137f8cd122d351c966371fa59b5",
                 "size_in_bytes": 6246
             },
             {
@@ -501,7 +501,7 @@
                 "_path": "lib/pkgconfig/freetype2.pc",
                 "path_type": "hardlink",
                 "sha256": "e442d8949578df2ac9c8c09f2b2ce651860c82b2d5016f162f5c9a82b64174d0",
-                "sha256_in_prefix": "53edf077da3243e67b61d06ec5427174899d3536308afc5b7c63d5252e14c6e8",
+                "sha256_in_prefix": "1319dffe05d178d464654c92f6c8a2e9e5ab7c1e781beafe4fb5e640eb5a9b8d",
                 "size_in_bytes": 1830
             },
             {

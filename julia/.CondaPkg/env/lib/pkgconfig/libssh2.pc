@@ -2,7 +2,7 @@
 # libssh2 installation details
 ###########################################################################
 
-prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

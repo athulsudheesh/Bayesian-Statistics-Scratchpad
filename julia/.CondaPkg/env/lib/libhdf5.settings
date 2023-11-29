@@ -9,7 +9,7 @@ General Information:
                     Host system: aarch64-apple-darwin20.0.0
               Uname information: Darwin Mac-1692556432824.local 20.6.0 Darwin Kernel Version 20.6.0: Thu Jun  8 22:36:09 PDT 2023; root:xnu-7195.141.49.701.4~1/RELEASE_X86_64 x86_64
                        Byte sex: little-endian
-             Installation point: /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+             Installation point: /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
 
 Compiling Options:
 ------------------
@@ -23,9 +23,9 @@ Linking Options:
 ----------------
                       Libraries: shared
   Statically Linked Executables: 
-                        LDFLAGS: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
+                        LDFLAGS: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
                      H5_LDFLAGS:  -Wl,-commons,use_dylibs
-                     AM_LDFLAGS:  -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
+                     AM_LDFLAGS:  -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib
                 Extra libraries: -lcrypto -lcurl -lpthread -lsz -lz -ldl -lm 
                        Archiver: arm64-apple-darwin20.0.0-ar
                        AR_FLAGS: cr
@@ -35,10 +35,10 @@ Languages:
 ----------
                               C: yes
                      C Compiler: /Users/runner/miniforge3/conda-bld/hdf5_1692562134395/_build_env/bin/arm64-apple-darwin20.0.0-clang
-                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0
+                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0
                     H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API -I/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work/src/H5FDsubfiling
-                    AM_CPPFLAGS:  -I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
-                        C Flags: -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix
+                    AM_CPPFLAGS:  -I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include
+                        C Flags: -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix
                      H5 C Flags:  -std=c99  -Wall -Warray-bounds -Wcast-qual -Wconversion -Wdouble-promotion -Wextra -Wformat=2 -Wframe-larger-than=16384 -Wimplicit-fallthrough -Wnull-dereference -Wunused-const-variable -Wwrite-strings -Wpedantic -Wvolatile-register-var -Wno-c++-compat     -Wbad-function-cast -Wimplicit-function-declaration -Wincompatible-pointer-types -Wmissing-declarations -Wpacked -Wshadow -Wswitch -Wno-error=incompatible-pointer-types-discards-qualifiers -Wunused-function -Wunused-variable -Wunused-parameter -Wcast-align -Wformat -Wno-missing-noreturn -O3
                      AM C Flags: 
                Shared C Library: yes
@@ -56,7 +56,7 @@ Languages:
 
                             C++: yes
                    C++ Compiler: /Users/runner/miniforge3/conda-bld/hdf5_1692562134395/_build_env/bin/arm64-apple-darwin20.0.0-clang++
-                      C++ Flags: -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix
+                      C++ Flags: -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix
                    H5 C++ Flags:   -std=c++11 -Wall -Warray-bounds -Wcast-qual -Wconversion -Wdouble-promotion -Wextra -Wformat=2 -Wframe-larger-than=16384 -Wimplicit-fallthrough -Wnull-dereference -Wunused-const-variable -Wwrite-strings -Wpedantic -Wvolatile-register-var -Wno-c++-compat     -Wbad-function-cast -Wimplicit-function-declaration -Wincompatible-pointer-types -Wmissing-declarations -Wpacked -Wshadow -Wswitch -Wno-error=incompatible-pointer-types-discards-qualifiers -Wunused-function -Wunused-variable -Wunused-parameter -Wcast-align -Wformat -O3
                    AM C++ Flags: 
              Shared C++ Library: yes

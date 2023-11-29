@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcxx-16.0.6-h4653b0c_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcxx-16.0.6-h4653b0c_0",
     "files": [
         "include/c++/v1/__algorithm/adjacent_find.h",
         "include/c++/v1/__algorithm/all_of.h",
@@ -892,12 +892,12 @@
     "license": "Apache-2.0 WITH LLVM-exception",
     "license_family": "Apache",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcxx-16.0.6-h4653b0c_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcxx-16.0.6-h4653b0c_0",
         "type": 1
     },
     "md5": "9d7d724faf0413bf1dbc5a85935700c8",
     "name": "libcxx",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcxx-16.0.6-h4653b0c_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcxx-16.0.6-h4653b0c_0.tar.bz2",
     "paths_data": {
         "paths": [
             {

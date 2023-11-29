@@ -1,5 +1,5 @@
 library(R2jags)
-
+library(rjags)
 n.sim <- 100
 set.seed(123)
 x1 <- rnorm(n.sim, mean = 5, sd = 2)
@@ -30,5 +30,17 @@ bayes.mod.inits <- function() {
 }
 
 bayes.mod.fit <- jags(data = sim.dat.jags, inits = bayes.mod.inits,
-   parameters.to.save = bayes.mod.params, n.chains = 3, n.iter = 9000,
+   parameters.to.save = bayes.mod.params, n.chains = 3, n.iter = 2000,
    n.burnin = 1000, model.file = bayes.mod)
+
+rowSums(frac20$Q)
+
+mcmc_model <- as.mcmc(bayes.mod.fit)
+mean_mcmc <- (mcmc_model[[1]] + mcmc_model[[2]] + mcmc_model[[3]])/3
+
+mean_mcmc[sample(nrow(mean_mcmc), size = 10),]
+jags.samples(mcmc_model,c("alpha"), n.iter = 10, force.list=TRUE)
+mcmc_model
+library(runjags)
+read.jagsfile(bayes.mod)
+run.jags(bayes.mod.fit, sample=100)

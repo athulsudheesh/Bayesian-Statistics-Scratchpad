@@ -32,7 +32,7 @@ EXIT_FAILURE=1
 
 # Where the tool is installed.
 # default is relative path to installed location of the tools
-prefix="${prefix:-/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env}"
+prefix="${prefix:-/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env}"
 PARALLEL=no             # Am I in parallel mode?
 AR="arm64-apple-darwin20.0.0-ar"
 RANLIB="arm64-apple-darwin20.0.0-ranlib"

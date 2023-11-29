@@ -43,7 +43,7 @@ EXIT_FAILURE=1
 # $() won't clobbered it.
 #
 prefix_relto_examplesdir=$(
-prefix=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
+prefix=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env
 examplesdir=${prefix}/share/hdf5_examples
 if [ ${examplesdir##${prefix}/} != ${examplesdir} ]; then
 	echo $(echo ${examplesdir##${prefix}/} | \

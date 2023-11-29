@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlicommon-1.1.0-hb547adb_1",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlicommon-1.1.0-hb547adb_1",
     "files": [
         "lib/libbrotlicommon.1.1.0.dylib",
         "lib/libbrotlicommon.1.dylib",
@@ -16,12 +16,12 @@
     "fn": "libbrotlicommon-1.1.0-hb547adb_1.conda",
     "license": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlicommon-1.1.0-hb547adb_1",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlicommon-1.1.0-hb547adb_1",
         "type": 1
     },
     "md5": "cd68f024df0304be41d29a9088162b02",
     "name": "libbrotlicommon",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libbrotlicommon-1.1.0-hb547adb_1.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libbrotlicommon-1.1.0-hb547adb_1.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -47,7 +47,7 @@
                 "_path": "lib/pkgconfig/libbrotlicommon.pc",
                 "path_type": "hardlink",
                 "sha256": "4b8290ac01734de845d60ecd5d8b009605d4a192dce6f5c54f9a1faa3dd08672",
-                "sha256_in_prefix": "8e52c2cf41a811064b1ff6a5493151da586be981252f589e09c94c0fca163dd5",
+                "sha256_in_prefix": "8f43b8bac1bdecc8ce47054caae87dae30bda6f46a3b9619ab53f26d557cbec0",
                 "size_in_bytes": 760
             }
         ],

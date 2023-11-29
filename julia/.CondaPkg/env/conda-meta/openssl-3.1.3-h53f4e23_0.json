@@ -10,7 +10,7 @@
     "depends": [
         "ca-certificates"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/openssl-3.1.3-h53f4e23_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/openssl-3.1.3-h53f4e23_0",
     "files": [
         "bin/c_rehash",
         "bin/openssl",
@@ -168,19 +168,19 @@
     "license": "Apache-2.0",
     "license_family": "Apache",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/openssl-3.1.3-h53f4e23_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/openssl-3.1.3-h53f4e23_0",
         "type": 1
     },
     "md5": "40d01d3f39589f54b618ddd28a5a48cb",
     "name": "openssl",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/openssl-3.1.3-h53f4e23_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/openssl-3.1.3-h53f4e23_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
                 "_path": "bin/c_rehash",
                 "path_type": "hardlink",
                 "sha256": "193534ee5dc35a93e5147e4ac16943ff861a5c37d357b74f9dd2d0a023770ad8",
-                "sha256_in_prefix": "33deffddfe685f6e581eb695afd67a84812da152cce9a9695f1efdafcbd27218",
+                "sha256_in_prefix": "1c70e26373040cdd955614f1bb357c954f3d2c6dae41bf00ce175af471c11789",
                 "size_in_bytes": 7103
             },
             {
@@ -1139,13 +1139,13 @@
                 "_path": "lib/libcrypto.3.dylib",
                 "path_type": "hardlink",
                 "sha256": "e96d5b585770b36d77a4c6a6b592c848bd006a920684e0f5a84af60241b6b059",
-                "sha256_in_prefix": "0b03c9911a366337c73a4106820c6f4a5f0c178b287ee88e45bb5436d9f1a765",
+                "sha256_in_prefix": "04052f37a46b323c7f13ee51858f7668a6b6e95f9500793a2331a32b27df0773",
                 "size_in_bytes": 4070448
             },
             {
                 "_path": "lib/libcrypto.dylib",
                 "path_type": "softlink",
-                "sha256_in_prefix": "0b03c9911a366337c73a4106820c6f4a5f0c178b287ee88e45bb5436d9f1a765",
+                "sha256_in_prefix": "04052f37a46b323c7f13ee51858f7668a6b6e95f9500793a2331a32b27df0773",
                 "size_in_bytes": 4070448
             },
             {
@@ -1165,21 +1165,21 @@
                 "_path": "lib/pkgconfig/libcrypto.pc",
                 "path_type": "hardlink",
                 "sha256": "1f38f662d93837aac4b53513ff0a29d4088a66ce5e58b72a679ce96da007e558",
-                "sha256_in_prefix": "fa7cda81944bd2bfc87a37d5a9a39854680f91145171547eb251757c24e96952",
+                "sha256_in_prefix": "73ca3667ad643118854f251346f2bf0b4f9a5f0e45ca2407ad962b03a1ad8d3c",
                 "size_in_bytes": 554
             },
             {
                 "_path": "lib/pkgconfig/libssl.pc",
                 "path_type": "hardlink",
                 "sha256": "d6132a5c423ac3d9968254d4e70859d824f51955dca156cc05d896860ca25e66",
-                "sha256_in_prefix": "2553999ba29e2d197fbd59c7193303e7c3b2b859f32de4f2f2320c8cfd2c7474",
+                "sha256_in_prefix": "74f16fbaf6ffff34d30bd78fbfaa738279ff3ce7240fa8851bf3374a43890be3",
                 "size_in_bytes": 514
             },
             {
                 "_path": "lib/pkgconfig/openssl.pc",
                 "path_type": "hardlink",
                 "sha256": "33126f953bb350430f2deebad67f390db8957c09369b2e505fcbd45856687615",
-                "sha256_in_prefix": "ed35d69faf410e51a342e63ee6f19f9f6bdae85cfc095f134e684d4071106238",
+                "sha256_in_prefix": "1044e308c8341c45363d166499ca50ad6cf070cbd36ff5702756562c4c35adad",
                 "size_in_bytes": 468
             },
             {

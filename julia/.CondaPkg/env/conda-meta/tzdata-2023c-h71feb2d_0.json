@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/noarch",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/tzdata-2023c-h71feb2d_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/tzdata-2023c-h71feb2d_0",
     "files": [
         "share/zoneinfo/Africa/Abidjan",
         "share/zoneinfo/Africa/Accra",
@@ -615,13 +615,13 @@
     "fn": "tzdata-2023c-h71feb2d_0.conda",
     "license": "LicenseRef-Public-Domain",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/tzdata-2023c-h71feb2d_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/tzdata-2023c-h71feb2d_0",
         "type": 1
     },
     "md5": "939e3e74d8be4dac89ce83b20de2492a",
     "name": "tzdata",
     "noarch": "generic",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/tzdata-2023c-h71feb2d_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/tzdata-2023c-h71feb2d_0.tar.bz2",
     "paths_data": {
         "paths": [
             {

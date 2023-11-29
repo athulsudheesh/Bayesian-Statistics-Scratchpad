@@ -60,7 +60,7 @@ add_library(libdeflate::libdeflate_shared SHARED IMPORTED)
 
 set_target_properties(libdeflate::libdeflate_shared PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "LIBDEFLATE_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include"
 )
 
 # Load information for each installed configuration.

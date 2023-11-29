@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/pthread-stubs-0.4-h27ca646_1001",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pthread-stubs-0.4-h27ca646_1001",
     "files": [
         "lib/pkgconfig/pthread-stubs.pc"
     ],
@@ -14,19 +14,19 @@
     "license": "MIT",
     "license_family": "MIT",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/pthread-stubs-0.4-h27ca646_1001",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pthread-stubs-0.4-h27ca646_1001",
         "type": 1
     },
     "md5": "d3f26c6494d4105d4ecb85203d687102",
     "name": "pthread-stubs",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/pthread-stubs-0.4-h27ca646_1001.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pthread-stubs-0.4-h27ca646_1001.tar.bz2",
     "paths_data": {
         "paths": [
             {
                 "_path": "lib/pkgconfig/pthread-stubs.pc",
                 "path_type": "hardlink",
                 "sha256": "876334443961491f838a83f81f019e54ef99de5f3251ce8aeb31b40bbc2aeb06",
-                "sha256_in_prefix": "ca638a15b9b6fef983f15b5fcc2f2ff6e182c0749d215498b6cede31c2f91374",
+                "sha256_in_prefix": "05751cf890e8477986879efb2f5720dc8b4df261bd10f6f992aa0f769a5c46e0",
                 "size_in_bytes": 490
             }
         ],

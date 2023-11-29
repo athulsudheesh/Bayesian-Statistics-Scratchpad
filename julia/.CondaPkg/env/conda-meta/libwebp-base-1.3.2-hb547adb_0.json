@@ -8,7 +8,7 @@
         "libwebp 1.3.2"
     ],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libwebp-base-1.3.2-hb547adb_0",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libwebp-base-1.3.2-hb547adb_0",
     "files": [
         "include/webp/decode.h",
         "include/webp/demux.h",
@@ -42,12 +42,12 @@
     "fn": "libwebp-base-1.3.2-hb547adb_0.conda",
     "license": "BSD-3-Clause",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libwebp-base-1.3.2-hb547adb_0",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libwebp-base-1.3.2-hb547adb_0",
         "type": 1
     },
     "md5": "85dbc11098cdbe4244cd73f29a3ab795",
     "name": "libwebp-base",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libwebp-base-1.3.2-hb547adb_0.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libwebp-base-1.3.2-hb547adb_0.tar.bz2",
     "paths_data": {
         "paths": [
             {
@@ -175,35 +175,35 @@
                 "_path": "lib/pkgconfig/libsharpyuv.pc",
                 "path_type": "hardlink",
                 "sha256": "9af0c2389aa60818ef771c4e48d96e4fd6e32a1a17b8513b5afe55f23d44df47",
-                "sha256_in_prefix": "3023ff5134bccf23f6aad4866e5a4426bde02fb20f8ec9cec31c6802e4aea1dc",
+                "sha256_in_prefix": "4105c462e6aee50c00118dba823680188a8327a2dbb1de7962c69c755ea81120",
                 "size_in_bytes": 528
             },
             {
                 "_path": "lib/pkgconfig/libwebp.pc",
                 "path_type": "hardlink",
                 "sha256": "cf4a197241ba4bb1000539ebc99b8dd56e2f5f97b001dac50650390b3937e8df",
-                "sha256_in_prefix": "1f90fa0d3ab2a70785e433acca4ee5421c3b0bc25bb371c0218b8f7d33d964e8",
+                "sha256_in_prefix": "29b43d7d87fe220db5c0cba9c67a742997733a100bc1211e3c36cf98468658eb",
                 "size_in_bytes": 542
             },
             {
                 "_path": "lib/pkgconfig/libwebpdecoder.pc",
                 "path_type": "hardlink",
                 "sha256": "c4d64c0a6b92df974ca889421fa33ef50ee2fc34ccf385366b7674f73f61035f",
-                "sha256_in_prefix": "0ba2e669e2c27ba9376cd620993ce9a8ba5e1919079e7a377428c1ff504651da",
+                "sha256_in_prefix": "239b717a2f9297cb7c5e614e39a98ce88eef99954109f2289d22184a50d205c9",
                 "size_in_bytes": 540
             },
             {
                 "_path": "lib/pkgconfig/libwebpdemux.pc",
                 "path_type": "hardlink",
                 "sha256": "659b7f402397389a4f9b2e881a863d338d58f569e4b9c3744927a61404fb6ea7",
-                "sha256_in_prefix": "1eb19c2cf46019b87c6f86bcebe6b27107a3006761a611be4e0476e5ae2b99ce",
+                "sha256_in_prefix": "eeb2d3001fa5ee66ebef5f935f823f2289d2381fdb86dbdea798709ebac5f54a",
                 "size_in_bytes": 532
             },
             {
                 "_path": "lib/pkgconfig/libwebpmux.pc",
                 "path_type": "hardlink",
                 "sha256": "7ce92f898abad761b53e2e0a40bdd797aed72a6a15804224d5d7b1c89fdab65b",
-                "sha256_in_prefix": "bd37c75b0649da924f613e5882339ccd86d374816fe5c034bf29656bc7e47d67",
+                "sha256_in_prefix": "3a9c445a1c7794e1879dd3c56e5a4483a958df992f25da42c5abad5354d8371e",
                 "size_in_bytes": 551
             },
             {

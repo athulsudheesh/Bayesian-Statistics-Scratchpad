@@ -65,7 +65,7 @@ DINA <- function(){
     for (i in 1:I){
         for (k in 1:K)
         {w[n,i,k] <- pow(alpha[n,k], Q[i,k])}
-        eta[n,i] <- pow(w[n,i,1:K])
+        eta[n,i] <- prod(w[n,i,1:K])
         p[n,i] <- g[i] + (1 - s[i] - g[i]) * eta[n,i]
         Y[n,i] ~ dbern(p[n,i])
     }
@@ -78,3 +78,4 @@ DINA <- function(){
     g[i] ~ dbeta(1, 1) %_% T(, 1-s[i])
   }
   }
+

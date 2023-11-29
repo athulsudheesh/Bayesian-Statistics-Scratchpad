@@ -1,0 +1,39 @@
+{
+    "arch": "arm64",
+    "build": "py312h1f38498_2",
+    "build_number": 2,
+    "build_string": "py312h1f38498_2",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "matplotlib-base >=3.8.0,<3.8.1.0a0",
+        "python >=3.12,<3.13.0a0",
+        "python_abi 3.12.* *_cp312",
+        "tornado >=5"
+    ],
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/matplotlib-3.8.0-py312h1f38498_2",
+    "files": [],
+    "fn": "matplotlib-3.8.0-py312h1f38498_2.conda",
+    "license": "PSF-2.0",
+    "license_family": "PSF",
+    "link": {
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/matplotlib-3.8.0-py312h1f38498_2",
+        "type": 1
+    },
+    "md5": "8d52a4d27cfa5ceebff112f6447cf30d",
+    "name": "matplotlib",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/matplotlib-3.8.0-py312h1f38498_2.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "matplotlib[version='>=1']",
+    "sha256": "672df079001cc0bbc518ca1fbc7a4648ea22ff3d89f1acbc28d593505bc66e6d",
+    "size": 8612,
+    "subdir": "osx-arm64",
+    "timestamp": 1697011790029,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.8.0-py312h1f38498_2.conda",
+    "version": "3.8.0"
+}

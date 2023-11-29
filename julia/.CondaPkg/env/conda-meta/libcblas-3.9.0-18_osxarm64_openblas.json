@@ -12,7 +12,7 @@
     "depends": [
         "libblas 3.9.0 18_osxarm64_openblas"
     ],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcblas-3.9.0-18_osxarm64_openblas",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcblas-3.9.0-18_osxarm64_openblas",
     "files": [
         "lib/libcblas.3.dylib",
         "lib/libcblas.dylib"
@@ -20,12 +20,12 @@
     "fn": "libcblas-3.9.0-18_osxarm64_openblas.conda",
     "license": "BSD-3-Clause",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcblas-3.9.0-18_osxarm64_openblas",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcblas-3.9.0-18_osxarm64_openblas",
         "type": 1
     },
     "md5": "ee0108105d7181f1c6f8c4269883ff3b",
     "name": "libcblas",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/libcblas-3.9.0-18_osxarm64_openblas.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/libcblas-3.9.0-18_osxarm64_openblas.tar.bz2",
     "paths_data": {
         "paths": [
             {

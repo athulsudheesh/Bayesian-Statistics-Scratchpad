@@ -6,7 +6,7 @@
     "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
     "constrains": [],
     "depends": [],
-    "extracted_package_dir": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/bzip2-1.0.8-h3422bc3_4",
+    "extracted_package_dir": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/bzip2-1.0.8-h3422bc3_4",
     "files": [
         "bin/bunzip2",
         "bin/bzcat",
@@ -36,12 +36,12 @@
     "license": "bzip2-1.0.6",
     "license_family": "BSD",
     "link": {
-        "source": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/bzip2-1.0.8-h3422bc3_4",
+        "source": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/bzip2-1.0.8-h3422bc3_4",
         "type": 1
     },
     "md5": "fc76ace7b94fb1f694988ab1b14dd248",
     "name": "bzip2",
-    "package_tarball_full_path": "/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.micromamba/pkgs/bzip2-1.0.8-h3422bc3_4.tar.bz2",
+    "package_tarball_full_path": "/Users/Athul/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/bzip2-1.0.8-h3422bc3_4.tar.bz2",
     "paths_data": {
         "paths": [
             {

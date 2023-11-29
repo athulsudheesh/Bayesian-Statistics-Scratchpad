@@ -21,7 +21,7 @@
 ## then modify them accordingly to represent the new paths.               ##
 ##                                                                        ##
 ############################################################################
-prefix="/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
+prefix="/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env"
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include"
@@ -86,9 +86,9 @@ CXXLINKERBASE="arm64-apple-darwin20.0.0-clang++"
 # paths and libraries from AM_LDFLAGS, LDFLAGS, AM_LIBS or LIBS carried in
 # from the hdf5 build. The order of the flags is intended to give precedence
 # to the user's flags.
-H5BLD_CXXFLAGS=" -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix"
-H5BLD_CPPFLAGS=" -I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -I/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -D_FORTIFY_SOURCE=2 -isystem /Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0"
-H5BLD_LDFLAGS=" -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/athulsudheesh/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
+H5BLD_CXXFLAGS=" -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_1692562134395/work=/usr/local/src/conda/hdf5-1.14.2 -fdebug-prefix-map=/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env=/usr/local/src/conda-prefix"
+H5BLD_CPPFLAGS=" -I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -I/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -D_FORTIFY_SOURCE=2 -isystem /Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/include -mmacosx-version-min=11.0"
+H5BLD_LDFLAGS=" -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib -L/Users/Athul/Documents/CODE/Bayesian-Statistics-Scratchpad/julia/.CondaPkg/env/lib"
 H5BLD_LIBS="-lcrypto -lcurl -lpthread -lsz -lz -ldl -lm "
 
 CXX="${HDF5_CXX:-$CXXBASE}"
